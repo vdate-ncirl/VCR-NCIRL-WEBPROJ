@@ -30,3 +30,6 @@ Alternative2
 	- Communion
 - Testimonials // Raj
 - Payment & Delivery // Raj
+
+How to represent size/price/person/ratio?
+
