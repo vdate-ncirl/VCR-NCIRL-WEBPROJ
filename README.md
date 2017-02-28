@@ -6,24 +6,27 @@ social media buttons, corner, top
 Alternative1
 Buttons
 - home
-- Gallery
+- Gallery 
 - Occasions
-- Testimonials
-- Payment & Delivery
+- Testimonials 
+- Payment & Delivery 
 
 Alternative2
 - Home
-- Gallery
+- Gallery // Carl
 	- Weddings
 	- Funerals
 	- Birthday
 	- Kids cakes
-- Occasions
+- Occasions // Vinit
+	- New Year
 	- Valentine's
 	- St. Patrick's Day
 	- Easter
 	- Mother's Day
 	- Father's Day
 	- Halloween
-- Testimonials
-- Payment & Delivery
+	- Christmas
+	- Communion
+- Testimonials // Raj
+- Payment & Delivery // Raj
