@@ -1,2 +1,28 @@
-html, body, h1 {height: 100%; font-family: 'Playfair Display', Arial, Helvetica; color: #ff0080;}
+
+body, h1 {height: 100%; font-family: 'Playfair Display', Arial, Helvetica; color: #00ff00;}
+
+.placeholder {
+	color: #c0c0c0;
+  	font-family: 'Roboto Slab', serif;
+}
  
+.center {
+	margin-left:10%;
+	text-align: center;
+	}
+
+.right {
+	text-align: right;
+}
+
+#logo {
+  float: left;
+  width:70%;
+  margin-left:10%;
+  text-align: center;
+ }
+#contact {
+  float: left ;
+  width:20%;
+  text-align: right;
+ }
