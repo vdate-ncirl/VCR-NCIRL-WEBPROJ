@@ -4,6 +4,8 @@ body, h1 {height: 100%; font-family: 'Playfair Display', Arial, Helvetica; color
 .placeholder {
 	color: #c0c0c0;
   	font-family: 'Roboto Slab', serif;
+  	border-style: solid;
+    border-width: 0.01em;
 }
  
 .center {
@@ -15,14 +17,30 @@ body, h1 {height: 100%; font-family: 'Playfair Display', Arial, Helvetica; color
 	text-align: right;
 }
 
+.newrow {
+	clear:both;
+}
+
 #logo {
   float: left;
   width:70%;
   margin-left:10%;
   text-align: center;
  }
-#contact {
-  float: left ;
-  width:20%;
+#social {
+  float: right ;
+  width:19%;
+  text-align: center;
+ }
+ 
+ #contact {
+  float: left;
+  width:40%;
+  margin-right:10%;
   text-align: right;
+ }
+map {
+  float: right ;
+  width:45%;
+  text-align: left;
  }
