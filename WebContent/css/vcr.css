@@ -27,6 +27,7 @@ body, h1 {height: 100%; font-family: 'Playfair Display', Arial, Helvetica; color
   margin-left:10%;
   text-align: center;
  }
+ 
 #social {
   float: right ;
   width:19%;
@@ -53,6 +54,8 @@ height: auto;
 
 p {
 	font-family: 'Indie Flower', cursive;
-	font-size: 3em;
-	color:violet;
+	font-size: large;
+	margin:2em;
+	text-align:justify;
+	color:#d2691e; /* Choclate Colour */
 }
