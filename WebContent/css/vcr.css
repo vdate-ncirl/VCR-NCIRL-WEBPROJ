@@ -1,5 +1,5 @@
 
-body, h1 {height: 100%; font-family: 'Playfair Display', Arial, Helvetica; color: #00ff00;}
+body, h1 {height: 100%; font-family: 'Playfair Display', Arial, Helvetica, sans-serif; color: #00ff00;}
 
 .placeholder {
 	color: #c0c0c0;
