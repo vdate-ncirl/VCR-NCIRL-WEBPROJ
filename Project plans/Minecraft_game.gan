@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Minecraft Game" company="" webLink="http://" view-date="2017-07-10" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="2.8.4" locale="en_IE">
+    <description/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Name" width="167" order="0"/>
+        <field id="tpd4" name="Begin date" width="65" order="1"/>
+        <field id="tpd5" name="End date" width="64" order="2"/>
+        <timeline><![CDATA[87,5]]></timeline>
+        <option id="color.recent"><![CDATA[#000000]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="32" name="Idea stage/benchmarking" color="#8cb6ce" meeting="false" start="2017-03-29" duration="18" complete="0" thirdDate="2017-04-03" thirdDate-constraint="0" expand="true">
+            <depend id="39" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="39" name="High Level Design" color="#000000" meeting="false" start="2017-04-24" duration="14" complete="0" expand="true">
+            <depend id="44" type="2" difference="0" hardness="Strong"/>
+            <task id="40" name="Concept" color="#8cb6ce" meeting="false" start="2017-04-24" duration="10" complete="0" expand="true">
+                <notes><![CDATA[Game Description: This is a very broad description of the game.
+Genre: What kind of game is it?
+Platform: Will this run on a PC, console, PDA, phone, etc.?
+Source: https://e-games.tech.purdue.edu/DesignDoc.asp]]></notes>
+            </task>
+            <task id="41" name="Focus" color="#8cb6ce" meeting="false" start="2017-04-25" duration="10" complete="0" expand="true"/>
+            <task id="42" name="Design" color="#8cb6ce" meeting="false" start="2017-05-01" duration="9" complete="0" expand="true">
+                <notes><![CDATA[User Interface: What do the screen elements and menus actually look like? This should include the color scheme, resolution, fonts, etc.
+Gameplay Elements: What do the game elements look like? This includes sketches of the characters and the setting for the game.
+Sound and Music: Identifies any needed music and sound effects
+Source: https://e-games.tech.purdue.edu/DesignDoc.asp]]></notes>
+            </task>
+        </task>
+        <task id="44" name="Stakeholder Meeting" color="#000000" meeting="false" start="2017-05-15" duration="2" complete="0" expand="true">
+            <task id="54" name="Budget plan" color="#8cb6ce" meeting="false" start="2017-05-15" duration="2" complete="0" expand="true"/>
+            <task id="55" name="Resources plan" color="#8cb6ce" meeting="false" start="2017-05-15" duration="2" complete="0" expand="true"/>
+            <task id="61" name="Marketing plan" color="#8cb6ce" meeting="false" start="2017-05-16" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="2" name="Detailed Design" meeting="false" start="2017-05-18" duration="27" complete="0" expand="true">
+            <depend id="4" type="2" difference="0" hardness="Strong"/>
+            <task id="64" name="Analysis" color="#8cb6ce" meeting="false" start="2017-05-18" duration="22" complete="0" expand="true">
+                <notes><![CDATA[- Define all Classes relevant to the problem
+- Define Operations & Attributes associated with
+them
+- Define the Relationships or Associations between them
+- Define the Behaviours they exhibit
+- Recording terms in the Glossary
+
+CRITICAL DELIVERABLES:
+Use Cases - What are the domain processes?
+Conceptual Models - What are the concepts, terms?
+System Sequence diagrams - What are the system events and operations?
+Contracts - What do system operations do?
+
+Source: lecture slides]]></notes>
+            </task>
+            <task id="66" name="Specification" color="#8cb6ce" meeting="false" start="2017-05-18" duration="27" complete="0" thirdDate="2017-05-18" thirdDate-constraint="1" expand="true">
+                <notes><![CDATA[Game Mechanics:
+- Core Gameplay: What actions will be available to the player consistently and how will those actions influence the world?
+- Mode of play: How many different modes of play will be available in the game?
+- Game Flow: How will the player progress through the game be organized. Is the game broken into levels? What triggers the end of a level? How will in-game assessments be integrated into the flow of the game?
+- Types of Characters: How many different types of characters are there? How do they behave differently in the game?
+- Gameplay Elements: What environmental elements exists in the game that add to the game play? Will there be items that act as a power-up? etc. Are there different types of weapons?
+User Interface Functionality: What are the user interface items and what functionality is needed for each of the items. This includes screens and menus.
+Narrative: The back-story for the game and characters
+--Source: https://e-games.tech.purdue.edu/DesignDoc.asp
+
+CRITICAL DELIVERABLES:
+Interaction Diagrams
+Communication Diagrams
+]]></notes>
+            </task>
+            <task id="134" name="Environment design" meeting="false" start="2017-05-18" duration="27" complete="0" expand="true"/>
+        </task>
+        <task id="3" name="Scheduling of activities" color="#8cb6ce" meeting="false" start="2017-05-18" duration="12" complete="0" expand="true"/>
+        <task id="4" name="Implementation" color="#000000" meeting="false" start="2017-06-27" duration="40" complete="0" expand="true">
+            <task id="97" name="Development" color="#8cb6ce" meeting="false" start="2017-06-27" duration="40" complete="0" expand="true"/>
+            <task id="98" name="Application" color="#8cb6ce" meeting="false" start="2017-06-27" duration="40" complete="0" expand="true"/>
+        </task>
+        <task id="5" name="Iteration/Testing" color="#000000" meeting="false" start="2017-07-17" duration="35" complete="0" expand="true">
+            <depend id="6" type="2" difference="0" hardness="Strong"/>
+            <task id="109" name="Experimentation" color="#8cb6ce" meeting="false" start="2017-07-17" duration="35" complete="0" expand="true"/>
+            <task id="113" name="Testing" color="#8cb6ce" meeting="false" start="2017-07-17" duration="35" complete="0" expand="true"/>
+        </task>
+        <task id="6" name="Lockdown" color="#8cb6ce" meeting="false" start="2017-09-04" duration="7" complete="0" expand="true">
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="7" name="Release" color="#8cb6ce" meeting="true" start="2017-09-13" duration="0" complete="0" expand="true">
+            <depend id="87" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="87" name="Post-Release Support" color="#8cb6ce" meeting="false" start="2017-09-13" duration="3" complete="0" priority="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
