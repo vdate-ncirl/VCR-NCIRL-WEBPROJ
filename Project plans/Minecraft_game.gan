@@ -1,5 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Minecraft Game" company="" webLink="http://" view-date="2017-07-10" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="2.8.4" locale="en_IE">
-    <description/>
+<?xml version="1.0" encoding="UTF-8"?><project name="Minecraft-like Game" company="" webLink="http://" view-date="2017-03-13" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="2.8.4" locale="en_IE">
+    <description><![CDATA[Object Oriented Software Engineering Project _ April 2017
+
+Group:
+Name	Student ID	Email
+Vinit Date	x16135270	x16135270@student.ncirl.ie
+Carl Mohn	x16136799	x16136799@ student.ncirl.ie
+Rajeeva Revankarx16137124	x16137124@student.ncirl.ie
+ 
+]]></description>
     <view zooming-state="default:6" id="gantt-chart">
         <field id="tpd3" name="Name" width="167" order="0"/>
         <field id="tpd4" name="Begin date" width="65" order="1"/>
@@ -59,7 +67,7 @@ Source: https://e-games.tech.purdue.edu/DesignDoc.asp]]></notes>
             <task id="55" name="Resources plan" color="#8cb6ce" meeting="false" start="2017-05-15" duration="2" complete="0" expand="true"/>
             <task id="61" name="Marketing plan" color="#8cb6ce" meeting="false" start="2017-05-16" duration="1" complete="0" expand="true"/>
         </task>
-        <task id="2" name="Detailed Design" meeting="false" start="2017-05-18" duration="27" complete="0" expand="true">
+        <task id="2" name="Detailed Design" color="#000000" meeting="false" start="2017-05-18" duration="27" complete="0" expand="true">
             <depend id="4" type="2" difference="0" hardness="Strong"/>
             <task id="64" name="Analysis" color="#8cb6ce" meeting="false" start="2017-05-18" duration="22" complete="0" expand="true">
                 <notes><![CDATA[- Define all Classes relevant to the problem
@@ -74,6 +82,7 @@ Use Cases - What are the domain processes?
 Conceptual Models - What are the concepts, terms?
 System Sequence diagrams - What are the system events and operations?
 Contracts - What do system operations do?
+Glossary of terms
 
 Source: lecture slides]]></notes>
             </task>
@@ -93,7 +102,12 @@ Interaction Diagrams
 Communication Diagrams
 ]]></notes>
             </task>
-            <task id="134" name="Environment design" meeting="false" start="2017-05-18" duration="27" complete="0" expand="true"/>
+            <task id="134" name="Environment design" color="#8cb6ce" meeting="false" start="2017-05-18" duration="27" complete="0" expand="true">
+                <notes><![CDATA[Platform analysis
+- DEV environment
+- UAT -"-
+- PROD -"-]]></notes>
+            </task>
         </task>
         <task id="3" name="Scheduling of activities" color="#8cb6ce" meeting="false" start="2017-05-18" duration="12" complete="0" expand="true"/>
         <task id="4" name="Implementation" color="#000000" meeting="false" start="2017-06-27" duration="40" complete="0" expand="true">
@@ -113,8 +127,35 @@ Communication Diagrams
         </task>
         <task id="87" name="Post-Release Support" color="#8cb6ce" meeting="false" start="2017-09-13" duration="3" complete="0" priority="0" expand="true"/>
     </tasks>
-    <resources/>
-    <allocations/>
+    <resources>
+        <resource id="0" name="Coder 1" function="SoftwareDevelopment:2" contacts="" phone=""/>
+        <resource id="1" name="Coder 2" function="SoftwareDevelopment:2" contacts="" phone=""/>
+        <resource id="3" name="Artist 1" function="SoftwareDevelopment:5" contacts="" phone=""/>
+        <resource id="4" name="Artist 2" function="SoftwareDevelopment:5" contacts="" phone=""/>
+        <resource id="5" name="Project Manager" function="Default:1" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="39" resource-id="0" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="44" resource-id="0" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="0" function="SoftwareDevelopment:2" responsible="false" load="90.0"/>
+        <allocation task-id="3" resource-id="0" function="SoftwareDevelopment:2" responsible="false" load="10.0"/>
+        <allocation task-id="39" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="44" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="90.0"/>
+        <allocation task-id="3" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="10.0"/>
+        <allocation task-id="39" resource-id="3" function="SoftwareDevelopment:5" responsible="false" load="100.0"/>
+        <allocation task-id="44" resource-id="3" function="SoftwareDevelopment:5" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="3" function="SoftwareDevelopment:5" responsible="false" load="90.0"/>
+        <allocation task-id="3" resource-id="3" function="SoftwareDevelopment:5" responsible="false" load="10.0"/>
+        <allocation task-id="39" resource-id="4" function="SoftwareDevelopment:5" responsible="false" load="100.0"/>
+        <allocation task-id="44" resource-id="4" function="SoftwareDevelopment:5" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="4" function="SoftwareDevelopment:5" responsible="false" load="90.0"/>
+        <allocation task-id="3" resource-id="4" function="SoftwareDevelopment:5" responsible="false" load="10.0"/>
+        <allocation task-id="39" resource-id="5" function="SoftwareDevelopment:8" responsible="true" load="100.0"/>
+        <allocation task-id="44" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="5" function="Default:1" responsible="true" load="10.0"/>
+        <allocation task-id="3" resource-id="5" function="Default:1" responsible="true" load="10.0"/>
+    </allocations>
     <vacations/>
     <previous/>
     <roles roleset-name="Default"/>
