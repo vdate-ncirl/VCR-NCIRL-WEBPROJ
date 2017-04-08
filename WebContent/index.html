@@ -1,16 +1,41 @@
-<!doctype html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <html lang="en">
 
 
-
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
  	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Playfair+Display|Roboto+Slab" rel="stylesheet"> 
-    <link rel="stylesheet" href="css/vcr.css">
+
+    <link rel="stylesheet" type="text/css" href="css/vcr.css" />
+	
+	<!-- Included a separate css file for the slideshow -->
+	<link rel="stylesheet" type="text/css" href="css/slideshow.css" media="screen" />
+	
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/png/ico">
     <title>Lol Cakes. Cakes for all occasions.</title>
+    
+    <!-- Below is the initialization for the slideshow -->
+    <script type="text/javascript" src="js/mootools.js"></script>
+	<script type="text/javascript" src="js/slideshow.js"></script>
+	
+	<script type="text/javascript">		
+	//<![CDATA[
+	  window.addEvent('domready', function(){
+	    var data = {
+	      '1.jpg': { caption: 'Bat cupcakes for Halloween.' }, 
+	      '2.jpg': { caption: 'A Wintery cake' }, 
+	      '3.jpg': { caption: "A New Year's cake" }, 
+	      '4.jpg': { caption: 'A novelty Birthday cake' }
+	    };
+			// data = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '1.jpg', '2.jpg', '3.jpg', '4.jpg', '1.jpg', '2.jpg', '3.jpg', '4.jpg'];
+	    var myShow = new Slideshow('show', data, {controller: true, height: 300, hu: 'images/', thumbnails: true, width: 400});
+	  });
+	//]]>
+	</script>
 </head>
 <body>
 	<div class="placeholder newrow" >
@@ -22,7 +47,10 @@
 	</div>
 	<div class="placeholder newrow"> banner-navigation</div>
 	<i class="material-icons" style="font-size:48px;color:red">cake</i>
-	<div class="placeholder newrow"> banner-image-slideshow</div>
+	
+	<div class="placeholder newrow" id="show" class="slideshow"> banner-image-slideshow
+	<img src="images/1.jpg" alt="Bat cupcakes for Halloween." />
+	</div>
 	
 	<div id=content class="placeholder newrow"> <!-- Content Block --> 
 			<p> 
