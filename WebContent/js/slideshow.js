@@ -20,7 +20,7 @@ Slideshow = new Class({
 		onComplete: $empty,
 		onEnd: $empty,
 		onStart: $empty,*/
-		captions: false,
+		captions: true,
 		center: true,
 		classes: [],
 		controller: false,

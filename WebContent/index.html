@@ -27,20 +27,20 @@
 	//<![CDATA[
 	  window.addEvent('domready', function(){
 	    var data = {
-	      "1.jpg": { caption: "Bat cupcakes for Halloween." }, 
+	      '1.jpg': { caption: 'Bat cupcakes for Halloween' }, 
 	      '2.jpg': { caption: 'A Wintery cake' }, 
 	      '3.jpg': { caption: "A New Year's cake" }, 
-	      '4.jpg': { caption: 'A novelty Birthday cake' },
-	      '5.jpg': { caption: 'A novelty Birthday cake' },
-	      '6.jpg': { caption: 'A novelty Birthday cake' },
+	      '4.jpg': { caption: 'A Birthday cake' },
+	      '5.jpg': { caption: "A Valentine's Day cake" },
+	      '6.jpg': { caption: 'A Wedding cake' },
 	      '7.jpg': { caption: 'A novelty Birthday cake' },
-	      '8.jpg': { caption: 'A novelty Birthday cake' },
-	      '9.jpg': { caption: 'A novelty Birthday cake' },
-	      '10.jpg': { caption: 'ssdfsdf' }
+	      '8.jpg': { caption: 'A novelty octopus cake' },
+	      '9.jpg': { caption: 'Pizza box cake' },
+	      '10.jpg': { caption: 'A special occasion cake' }
 	    };
 			
-	 	    var myShow = new Slideshow('show', data, {controller: true, height: 300, hu: 'images/small', thumbnails: true, width: 400}); 
-<!--			var myShow = new Slideshow.KenBurns('show', data, { captions: true, controller: true, delay: 4000, duration: 1000, height: 300, hu: 'images/', width: 400 }); -->
+	 	    var myShow = new Slideshow('show', data, {controller: true, height: 300, hu: 'images/small', thumbnails: false, width: 400}); 
+<!--			var myShow = new Slideshow.KenBurns('show', data, { captions: true, controller: true, delay: 4000, duration: 1000, height: 300, hu: 'images/small/', width: 400 }); -->
 	  });
 	//]]>
 	</script>
@@ -53,7 +53,21 @@
 	
 		<div  id="social" class="placeholder">Social Media</div>
 	</div>
-	<div class="placeholder newrow"> banner-navigation</div>
+	<div class="placeholder newrow"></div>
+	
+	<div>
+	<ul class="nav">
+	 	<li class="nav"><a href="index.html">Home</a></li>
+	 	<li class="nav"><a href="index.html">Birthdays</a></li>
+	 	<li class="nav"><a href="index.html">Weddings</a></li>
+	 	<li class="nav"><a href="index.html">Novelty</a></li>
+	 	<li class="nav"><a href="index.html">Gallery</a></li>
+	 	<li class="nav"><a href="index.html">Pricing</a></li>
+	 </ul>
+	 </div>
+	 
+	 <div class="placeholder newrow">&nbsp;</div>
+	 
 <!-- 	<div class="material-icons" style="font-size:48px;color:red">cake</div>  -->
 	
 <!-- OLD version: <div class="placeholder newrow" id="show" class="slideshow"> banner-image-slideshow-->
@@ -61,8 +75,7 @@
 		<div id="show" class="slideshow">
 		<img src="images/small/1.jpg" width="400" height="300" alt="Bat cupcakes for Halloween." />
 		</div>
-	<p></p>
-	
+		
 	<div id="content" class="placeholder newrow"> <!-- Content Block --> 
 			<p> 
 			Make a birthday extra special, or a occasion more memorable with Ireland's finest custom-made tasty cakes.

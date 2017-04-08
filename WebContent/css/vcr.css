@@ -8,8 +8,25 @@ h1 {
 	 color: #00ff00;
 	 }
 
-body, h1 {height: 100%; font-family: 'Playfair Display', Arial, Helvetica, sans-serif; color: #00ff00;}
+body {height: 100%; font-family: 'Playfair Display', Arial, Helvetica, sans-serif; color: #00ff00;}
 
+ul.nav {
+    list-style-type: none;
+    margin: auto;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    background-color: pink;
+    border-style: solid;
+    border-width: medium;
+    border-color: pink;
+}
+li.nav {
+	float: left;
+	
+	display: block;
+    padding: 8px;
+	}
 .placeholder {
 	color: #c0c0c0;
   	font-family: 'Roboto Slab', serif;
