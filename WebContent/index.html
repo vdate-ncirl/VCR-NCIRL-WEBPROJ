@@ -21,18 +21,26 @@
     <!-- Below is the initialization for the slideshow -->
     <script type="text/javascript" src="js/mootools.js"></script>
 	<script type="text/javascript" src="js/slideshow.js"></script>
+	<!-- just as a reserve <script type="text/javascript" src="js/slideshow.kenburns.js"></script> -->
 	
 	<script type="text/javascript">		
 	//<![CDATA[
 	  window.addEvent('domready', function(){
 	    var data = {
-	      '1.jpg': { caption: 'Bat cupcakes for Halloween.' }, 
+	      "1.jpg": { caption: "Bat cupcakes for Halloween." }, 
 	      '2.jpg': { caption: 'A Wintery cake' }, 
 	      '3.jpg': { caption: "A New Year's cake" }, 
-	      '4.jpg': { caption: 'A novelty Birthday cake' }
+	      '4.jpg': { caption: 'A novelty Birthday cake' },
+	      '5.jpg': { caption: 'A novelty Birthday cake' },
+	      '6.jpg': { caption: 'A novelty Birthday cake' },
+	      '7.jpg': { caption: 'A novelty Birthday cake' },
+	      '8.jpg': { caption: 'A novelty Birthday cake' },
+	      '9.jpg': { caption: 'A novelty Birthday cake' },
+	      '10.jpg': { caption: 'ssdfsdf' }
 	    };
-			// data = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '1.jpg', '2.jpg', '3.jpg', '4.jpg', '1.jpg', '2.jpg', '3.jpg', '4.jpg'];
-	    var myShow = new Slideshow('show', data, {controller: true, height: 300, hu: 'images/', thumbnails: true, width: 400});
+			
+	 	    var myShow = new Slideshow('show', data, {controller: true, height: 300, hu: 'images/small', thumbnails: true, width: 400}); 
+<!--			var myShow = new Slideshow.KenBurns('show', data, { captions: true, controller: true, delay: 4000, duration: 1000, height: 300, hu: 'images/', width: 400 }); -->
 	  });
 	//]]>
 	</script>
@@ -46,11 +54,14 @@
 		<div  id="social" class="placeholder">Social Media</div>
 	</div>
 	<div class="placeholder newrow"> banner-navigation</div>
-	<div class="material-icons" style="font-size:48px;color:red">cake</div>
+<!-- 	<div class="material-icons" style="font-size:48px;color:red">cake</div>  -->
 	
-	<div class="placeholder newrow" id="show" class="slideshow"> banner-image-slideshow
-	<img src="images/1.jpg" alt="Bat cupcakes for Halloween." />
-	</div>
+<!-- OLD version: <div class="placeholder newrow" id="show" class="slideshow"> banner-image-slideshow-->
+
+		<div id="show" class="slideshow">
+		<img src="images/small/1.jpg" width="400" height="300" alt="Bat cupcakes for Halloween." />
+		</div>
+	<br/>
 	
 	<div id="content" class="placeholder newrow"> <!-- Content Block --> 
 			<p> 
