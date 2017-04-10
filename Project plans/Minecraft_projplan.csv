@@ -1,0 +1,68 @@
+ID,Name,Begin date,End date,Duration,Completion,Cost,Coordinator,Predecessors,Outline number,Resources,Web Link,Notes
+32,Idea stage/benchmarking,29/03/17,21/04/17,18,0,0,,,1,,,
+39,High Level Design,24/04/17,11/05/17,14,0,0.0,Project Manager,32,2,Coder 1;Coder 2;Artist 1;Artist 2;Project Manager,,
+40,"  Concept",24/04/17,05/05/17,10,0,0,,,2.1,,,"Game Description: This is a very broad description of the game.
+Genre: What kind of game is it?
+Platform: Will this run on a PC, console, PDA, phone, etc.?
+Source: https://e-games.tech.purdue.edu/DesignDoc.asp"
+41,"  Focus",25/04/17,08/05/17,10,0,0,,,2.2,,,
+42,"  Design",01/05/17,11/05/17,9,0,0,,,2.3,,,"User Interface: What do the screen elements and menus actually look like? This should include the color scheme, resolution, fonts, etc.
+Gameplay Elements: What do the game elements look like? This includes sketches of the characters and the setting for the game.
+Sound and Music: Identifies any needed music and sound effects
+Source: https://e-games.tech.purdue.edu/DesignDoc.asp"
+44,Stakeholder Meeting,15/05/17,16/05/17,2,0,0.0,Project Manager,39,3,Coder 1;Coder 2;Artist 1;Artist 2;Project Manager,,
+54,"  Budget plan",15/05/17,16/05/17,2,0,0,,,3.1,,,
+55,"  Resources plan",15/05/17,16/05/17,2,0,0,,,3.2,,,
+61,"  Marketing plan",16/05/17,16/05/17,1,0,0,,,3.3,,,
+2,Detailed Design,18/05/17,23/06/17,27,0,0.0,Project Manager,,4,Coder 1;Coder 2;Artist 1;Artist 2;Project Manager,,
+64,"  Analysis",18/05/17,16/06/17,22,0,0,,,4.1,,,"- Define all Classes relevant to the problem
+- Define Operations & Attributes associated with
+them
+- Define the Relationships or Associations between them
+- Define the Behaviours they exhibit
+- Recording terms in the Glossary
+
+CRITICAL DELIVERABLES:
+Use Cases - What are the domain processes?
+Conceptual Models - What are the concepts, terms?
+System Sequence diagrams - What are the system events and operations?
+Contracts - What do system operations do?
+Glossary of terms
+
+Source: lecture slides"
+66,"  Specification",18/05/17,23/06/17,27,0,0,,,4.2,,,"Game Mechanics:
+- Core Gameplay: What actions will be available to the player consistently and how will those actions influence the world?
+- Mode of play: How many different modes of play will be available in the game?
+- Game Flow: How will the player progress through the game be organized. Is the game broken into levels? What triggers the end of a level? How will in-game assessments be integrated into the flow of the game?
+- Types of Characters: How many different types of characters are there? How do they behave differently in the game?
+- Gameplay Elements: What environmental elements exists in the game that add to the game play? Will there be items that act as a power-up? etc. Are there different types of weapons?
+User Interface Functionality: What are the user interface items and what functionality is needed for each of the items. This includes screens and menus.
+Narrative: The back-story for the game and characters
+--Source: https://e-games.tech.purdue.edu/DesignDoc.asp
+
+CRITICAL DELIVERABLES:
+Interaction Diagrams
+Communication Diagrams
+"
+134,"  Environment design",18/05/17,23/06/17,27,0,0,,,4.3,,,"Platform analysis
+- DEV environment
+- UAT -""-
+- PROD -""-"
+3,Scheduling of activities,18/05/17,02/06/17,12,0,0.0,Project Manager,,5,Coder 1;Coder 2;Artist 1;Artist 2;Project Manager,,
+4,Implementation,27/06/17,21/08/17,40,0,0,,2,6,,,
+97,"  Development",27/06/17,21/08/17,40,0,0,,,6.1,,,
+98,"  Application",27/06/17,21/08/17,40,0,0,,,6.2,,,
+5,Iteration/Testing,17/07/17,01/09/17,35,0,0,,,7,,,
+109,"  Experimentation",17/07/17,01/09/17,35,0,0,,,7.1,,,
+113,"  Testing",17/07/17,01/09/17,35,0,0,,,7.2,,,
+6,Lockdown,04/09/17,12/09/17,7,0,0,,5,8,,,
+7,Release,13/09/17,13/09/17,0,0,0,,6,9,,,
+87,Post-Release Support,13/09/17,15/09/17,3,0,0,,7,10,,,
+
+
+ID,Name,Default role,e-mail,Phone,Assignment role,Standard rate
+0,Coder 1,SoftwareDevelopment:2,,,,0
+1,Coder 2,SoftwareDevelopment:2,,,,0
+3,Artist 1,SoftwareDevelopment:5,,,,0
+4,Artist 2,SoftwareDevelopment:5,,,,0
+5,Project Manager,Default:1,,,,0
