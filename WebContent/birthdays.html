@@ -23,68 +23,8 @@
 	type="image/png/ico" />
 <title>Lol Cakes. Cakes for all occasions.</title>
 
-<!-- Below is the initialization for the slideshow -->
-<script type="text/javascript" src="js/mootools.js"></script>
-<script type="text/javascript" src="js/slideshow.js"></script>
-<!-- just as a reserve <script type="text/javascript" src="js/slideshow.kenburns.js"></script> -->
 
-<script type="text/javascript">
-	//<![CDATA[
-	window.addEvent('domready', function() {
-		var data = {
-			'1.jpg' : {
-				caption : 'Bat cupcakes for Halloween'
-			},
-			'2.jpg' : {
-				caption : 'A Wintery cake'
-			},
-			'3.jpg' : {
-				caption : "A New Year's cake"
-			},
-			'4.jpg' : {
-				caption : 'A Birthday cake'
-			},
-			'5.jpg' : {
-				caption : "A Valentine's Day cake"
-			},
-			'6.jpg' : {
-				caption : 'A Wedding cake'
-			},
-			'7.jpg' : {
-				caption : 'A novelty Birthday cake'
-			},
-			'8.jpg' : {
-				caption : 'A novelty octopus cake'
-			},
-			'9.jpg' : {
-				caption : 'Pizza box cake'
-			},
-			'10.jpg' : {
-				caption : 'A special occasion cake'
-			}
-		};
-
-		var myShow = new Slideshow('show', data, {
-			controller : true,
-			height : 300,
-			hu : 'images/small',
-			thumbnails : false,
-			width : 400
-		});
-		<!--
-		var myShow = new Slideshow.KenBurns('show', data, {
-			captions : true,
-			controller : true,
-			delay : 4000,
-			duration : 1000,
-			height : 300,
-			hu : 'images/small/',
-			width : 400
-		});
-		-->
-	});
-	//]]>
-</script>
+<script src="js/navbar.js"></script>
 </head>
 <body>
 	<div class="placeholder newrow">
@@ -104,20 +44,12 @@
 					width="24">
 		</div>
 	</div>
-	<div class="placeholder newrow"></div>
-
-	<div>
-		<!-- NAVIGATION BAR BELOW -->
-		<ul class="nav">
-			<li class="nav"><a href="index.html">Home</a></li>
-			<li class="nav"><a href="index.html">Birthdays</a></li>
-			<li class="nav"><a href="index.html">Weddings</a></li>
-			<li class="nav"><a href="index.html">Novelty</a></li>
-			<li class="nav"><a href="gallery.html">Gallery</a></li>
-			<li class="nav"><a href="index.html">Pricing</a></li>
-			<li class="nav"><a href="index.html">Promotions</a></li>
-			<li class="nav"><a href="blog.html">Blog</a></li>
-		</ul>
+	
+		<div class="placeholder newrow nav">
+		<div id="navbar"></div>
+		<script>
+			document.getElementById("navbar").innerHTML = navbar()
+		</script>
 	</div>
 
 	<div class="placeholder newrow">&nbsp;</div>
@@ -128,11 +60,7 @@
 
 	<div id="content" class="placeholder newrow">
 		<!-- Content Block -->
-		<p>Make a birthday extra special, or a occasion more memorable
-			with Ireland's finest custom-made tasty cakes. Novelty cakes,
-			birthday cakes, traditional Irish and British cakes, birthday cup
-			cakes. Fancy something a bit extra? Check out our Scandinavian
-			corner.</p>
+		<p>Make a birthday extra special...</p>
 		
 	</div>
 
