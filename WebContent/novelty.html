@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
+
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=" UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet" />
+<link
+	href="https://fonts.googleapis.com/css?family=Indie+Flower|Playfair+Display|Roboto+Slab"
+	rel="stylesheet" />
+
+<link rel="stylesheet" type="text/css" href="css/vcr.css" />
+
+<!-- Included a separate css file for the slideshow -->
+<link rel="stylesheet" type="text/css" href="css/slideshow.css"
+	media="screen" />
+
+<link rel="shortcut icon" href="./images/favicon.ico"
+	type="image/png/ico" />
+<title>Lol Cakes. Cakes for all occasions.</title>
+
+<!-- Below is the initialization for the slideshow -->
+<script type="text/javascript" src="js/mootools.js"></script>
+<script type="text/javascript" src="js/slideshow.js"></script>
+<!-- just as a reserve <script type="text/javascript" src="js/slideshow.kenburns.js"></script> -->
+
+<script type="text/javascript">
+	//<![CDATA[
+	window.addEvent('domready', function() {
+		var data = {
+			'1.jpg' : {
+				caption : 'Bat cupcakes for Halloween'
+			},
+			'2.jpg' : {
+				caption : 'A Wintery cake'
+			},
+			'3.jpg' : {
+				caption : "A New Year's cake"
+			},
+			'4.jpg' : {
+				caption : 'A Birthday cake'
+			},
+			'5.jpg' : {
+				caption : "A Valentine's Day cake"
+			},
+			'6.jpg' : {
+				caption : 'A Wedding cake'
+			},
+			'7.jpg' : {
+				caption : 'A novelty Birthday cake'
+			},
+			'8.jpg' : {
+				caption : 'A novelty octopus cake'
+			},
+			'9.jpg' : {
+				caption : 'Pizza box cake'
+			},
+			'10.jpg' : {
+				caption : 'A special occasion cake'
+			}
+		};
+
+		var myShow = new Slideshow('show', data, {
+			controller : true,
+			height : 300,
+			hu : 'images/small',
+			thumbnails : false,
+			width : 400
+		});
+		<!--
+		var myShow = new Slideshow.KenBurns('show', data, {
+			captions : true,
+			controller : true,
+			delay : 4000,
+			duration : 1000,
+			height : 300,
+			hu : 'images/small/',
+			width : 400
+		});
+		-->
+	});
+	//]]>
+</script>
+</head>
+<body>
+	<div class="placeholder newrow">
+		<div id="logo" class="placeholder">
+			<img alt="logo" src="images/logo.png"
+				style="background-color: Green;" />
+		</div>
+
+		<div id="social" class="placeholder">
+			<img alt="phone icon" src="images/graphics/icon-phone.png" width="24"
+				style="height: 22px"><img alt="email icon"
+				src="images/graphics/icon-email.png" style="height: 22px" width="24"><img
+				alt="facebook logo"
+				src="images/graphics/facebook-icon-preview-1.png"
+				style="height: 24px" width="24"><img alt="pinterest"
+					src="images/graphics/pinterest-black-icon.png" style="height: 24px"
+					width="24">
+		</div>
+	</div>
+	<div class="placeholder newrow"></div>
+
+	<div>
+		<!-- NAVIGATION BAR BELOW -->
+		<ul class="nav">
+			<li class="nav"><a href="index.html">Home</a></li>
+			<li class="nav"><a href="index.html">Birthdays</a></li>
+			<li class="nav"><a href="index.html">Weddings</a></li>
+			<li class="nav"><a href="index.html">Novelty</a></li>
+			<li class="nav"><a href="gallery.html">Gallery</a></li>
+			<li class="nav"><a href="index.html">Pricing</a></li>
+			<li class="nav"><a href="index.html">Promotions</a></li>
+			<li class="nav"><a href="blog.html">Blog</a></li>
+		</ul>
+	</div>
+
+	<div class="placeholder newrow">&nbsp;</div>
+
+	<!-- 	<div class="material-icons" style="font-size:48px;color:red">cake</div>  -->
+
+	<!-- OLD version: <div class="placeholder newrow" id="show" class="slideshow"> banner-image-slideshow-->
+
+	<div id="content" class="placeholder newrow">
+		<!-- Content Block -->
+		<p>Make someone's day extra special with a novelty cake.</p>
+		
+	</div>
+
+	<div class="placeholder newrow">
+		<div id="contact" class="placeholder">Contact</div>
+		<div id="map" class="placeholder">Map- FindUs</div>
+	</div>
+
+</body>
