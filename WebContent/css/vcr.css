@@ -12,8 +12,8 @@ body {height: 100%; font-family: 'Playfair Display', Arial, Helvetica, sans-seri
 
 ul.nav {
     list-style-type: none;
-    margin: auto;
-    width: 100%;
+    margin:2em;
+    
     padding: 0;
     overflow: hidden;
     background-color: pink;
@@ -22,9 +22,9 @@ ul.nav {
     border-color: pink;
 }
 li.nav {
-	float: left;
+	float: left; 
 	display: block;
-    padding: 8px;
+	margin:2em;
 	}
 
 div.thumb1{
@@ -77,6 +77,14 @@ div.thumb1{
   width:40%;
   text-align: left;
  }
+
+
+#navlink{
+	float: right;
+  width:70%;
+  margin-left:10%;
+  text-align: center;
+}
  
 img {
 	max-width: 100%; 

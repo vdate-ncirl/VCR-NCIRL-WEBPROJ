@@ -20,14 +20,15 @@
 </script>
 
 <title>Lol Cakes. Cakes for all occasions.</title>
+<script src="js/navbar.js"></script>
 </head>
 <body>
 
-	<div class="placeholder newrow" >
-		<div id="logo" class=placeholder> 
-			<img  alt="logo" src="images/logo.png">
+	<div class="placeholder newrow">
+		<div id="logo" class=placeholder>
+			<img alt="logo" src="images/logo.png">
 		</div>
-	
+
 		<div id="social" class="placeholder">
 			<img alt="phone icon" src="images/graphics/icon-phone.png" width="24"
 				style="height: 22px"><img alt="email icon"
@@ -39,21 +40,14 @@
 				width="24">
 		</div>
 	</div>
-	<!-- 	<div class="placeholder newrow">banner-navigation</div> -->
 
-	<div>
-		<!-- NAVIGATION BAR BELOW -->
-		<ul class="nav">
-			<li class="nav"><a href="index.html">Home</a></li>
-			<li class="nav"><a href="index.html">Birthdays</a></li>
-			<li class="nav"><a href="index.html">Weddings</a></li>
-			<li class="nav"><a href="index.html">Novelty</a></li>
-			<li class="nav"><a href="gallery.html">Gallery</a></li>
-			<li class="nav"><a href="index.html">Pricing</a></li>
-			<li class="nav"><a href="index.html">Promotions</a></li>
-			<li class="nav"><a href="blog.html">Blog</a></li>
-		</ul>
+	<div class="placeholder newrow nav">
+		<div id="navbar"></div>
+		<script>
+			document.getElementById("navbar").innerHTML = navbar()
+		</script>
 	</div>
+
 
 	<div class="thumb1">
 		<a href="images/1.jpg" class="highslide"

@@ -84,6 +84,7 @@
 	});
 	//]]>
 </script>
+<script src="js/navbar.js"></script>
 </head>
 <body>
 	<div class="placeholder newrow">
@@ -93,36 +94,25 @@
 		</div>
 
 		<div id="social" class="placeholder">
-			<img alt="phone icon" src="images/graphics/icon-phone.png" width="24" style="height: 22px" />
-			<img alt="email icon" src="images/graphics/icon-email.png" style="height: 22px" width="24" />
-			<img alt="facebook logo" src="images/graphics/facebook-icon-preview-1.png" style="height: 24px" width="24" />
-			<img alt="pinterest" src="images/graphics/pinterest-black-icon.png" style="height: 24px" width="24" />
+			<img alt="phone icon" src="images/graphics/icon-phone.png" width="24"
+				style="height: 22px" /> <img alt="email icon"
+				src="images/graphics/icon-email.png" style="height: 22px" width="24" />
+			<img alt="facebook logo"
+				src="images/graphics/facebook-icon-preview-1.png"
+				style="height: 24px" width="24" /> <img alt="pinterest"
+				src="images/graphics/pinterest-black-icon.png" style="height: 24px"
+				width="24" />
 		</div>
 	</div>
-	<div class="placeholder newrow">&nbsp;</div>
 
-	<!-- 	<div class="material-icons" style="font-size:48px;color:red">cake</div>  -->
-	<!-- OLD version: <div class="placeholder newrow" id="show" class="slideshow"> banner-image-slideshow-->
 
-	<div>
-		<!-- NAVIGATION BAR BELOW -->
-		<ul class="nav">
-			<li class="nav"><a href="index.html">Home</a></li>
-			<li class="nav"><a href="index.html">Birthdays</a></li>
-			<li class="nav"><a href="index.html">Weddings</a></li>
-			<li class="nav"><a href="index.html">Novelty</a></li>
-			<li class="nav"><a href="gallery.html">Gallery</a></li>
-			<li class="nav"><a href="index.html">Pricing</a></li>
-			<li class="nav"><a href="index.html">Promotions</a></li>
-			<li class="nav"><a href="blog.html">Blog</a></li>
-		</ul>
+	<div class="placeholder newrow nav">
+		<div id="navbar"></div>
+		<script>
+			document.getElementById("navbar").innerHTML = navbar()
+		</script>
 	</div>
 
-	<div class="placeholder newrow">&nbsp;</div>
-
-	<!-- 	<div class="material-icons" style="font-size:48px;color:red">cake</div>  -->
-
-	<!-- OLD version: <div class="placeholder newrow" id="show" class="slideshow"> banner-image-slideshow-->
 
 	<div id="show" class="slideshow">
 		<img src="images/small/1.jpg" width="400" height="300"
