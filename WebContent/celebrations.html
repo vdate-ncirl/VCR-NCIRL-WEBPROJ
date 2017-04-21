@@ -25,6 +25,65 @@
 
 
 <script src="js/navbar.js"></script>
+<script type="text/javascript" src="js/mootools.js"></script>
+<script type="text/javascript" src="js/slideshow.js"></script>
+<!-- just as a reserve <script type="text/javascript" src="js/slideshow.kenburns.js"></script> -->
+
+<script type="text/javascript">
+	//<![CDATA[
+	window.addEvent('domready', function() {
+		var data = {
+			'4.jpg' : {
+				caption : 'Teenager birthday cake'
+			},
+			'11.jpg' : {
+				caption : 'Teenager birthday cake'
+			},
+			'12.jpg' : {
+				caption : "Valentine's Day cake"
+			},
+			'anniv_cake.jpg' : {
+				caption : 'Marbled anniversary cake'
+			},
+			'bday_cake.jpg' : {
+				caption : 'Birthday cake with flowers'
+			},
+			'choccybisquit.jpg' : {
+				caption : 'Birthday bisquit cake with chocolate flowers'
+			},
+			'eastercake.jpg' : {
+				caption : 'Easter cake with tiny eggs'
+			},
+			'mumsday_cake.jpg' : {
+				caption : "Mother's Day cake"
+			},
+			'spring_cake.jpg' : {
+				caption : "Birthday cake with spring flowers"
+			},
+		};
+
+
+		var myShow = new Slideshow('show', data, {
+			controller : true,
+			height : 300,
+			hu : 'images',
+			thumbnails : false,
+			width : 400
+		});
+		<!--
+		var myShow = new Slideshow.KenBurns('show', data, {
+			captions : true,
+			controller : true,
+			delay : 4000,
+			duration : 1000,
+			height : 300,
+			hu : 'images/small/',
+			width : 400
+		});
+		-->
+	});
+	//]]>
+</script>
 </head>
 <body>
 	<div class="placeholder newrow">
@@ -34,30 +93,36 @@
 		</div>
 
 		<div id="social" class="placeholder">
-			<img alt="phone icon" src="images/graphics/icon-phone.png" width="24" style="height: 22px">
-			<img alt="email icon" src="images/graphics/icon-email.png" style="height: 22px" width="24" >
-			<img alt="facebook logo" src="images/graphics/facebook-icon-preview-1.png" style="height: 24px" width="24">
-			<img alt="pinterest" src="images/graphics/pinterest-black-icon.png" style="height: 24px" width="24">
+			<img alt="phone icon" src="images/graphics/icon-phone.png" width="24"
+				style="height: 22px"> <img alt="email icon"
+				src="images/graphics/icon-email.png" style="height: 22px" width="24">
+					<a href="https://www.facebook.com/lolcakesOfficial"> <img
+						alt="facebook logo"
+						src="images/graphics/facebook-icon-preview-1.png"
+						style="height: 24px" width="24"></a> <img alt="pinterest"
+					src="images/graphics/pinterest-black-icon.png" style="height: 24px"
+					width="24">
 		</div>
 	</div>
-	
-		<div class="placeholder newrow nav">
+
+	<div class="placeholder newrow nav">
 		<div id="navbar"></div>
 		<script>
 			document.getElementById("navbar").innerHTML = navbar()
 		</script>
 	</div>
 
-	<div class="placeholder newrow">&nbsp;</div>
-
-	<!-- 	<div class="material-icons" style="font-size:48px;color:red">cake</div>  -->
-
-	<!-- OLD version: <div class="placeholder newrow" id="show" class="slideshow"> banner-image-slideshow-->
-
-	<div id="content" class="placeholder newrow">
-		<!-- Content Block -->
-		<p>Make a birthday extra special...</p>
-		
+	<!-- Here is the slideshow element. Source: http://www.electricprism.com/aeron/slideshow/ -->
+	<div class="thumb1">
+		<div id="show" class="slideshow">
+			<img src="images/4.jpg" width="400" height="300"
+				alt="Celebration cakes" />
+		</div>
+	</div>
+	<div class="righttext">
+		<p>
+		Make a birthday extra special...
+		</p>
 	</div>
 
 	<div class="placeholder newrow">

@@ -1,16 +1,13 @@
 body {
 	background-color: #ffffcc;
+	height: 100%;
+	font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+	color: #00ff00;
 }
 
 h1 {
 	font-family: 'Playfair Display', Arial, Helvetica;
 	color: #f9bff4;
-}
-
-body {
-	height: 100%;
-	font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
-	color: #00ff00;
 }
 
 ul.nav {
@@ -40,6 +37,10 @@ div.testimonial {
 	color: black;
 	width: automatic;
 	margin-left: 10%;
+}
+
+div.righttext {
+	font-size: 0.7em;
 }
 
 p.testim {
