@@ -1,6 +1,6 @@
 var navlinks = [
 	 	"<li class=\"nav\"><a href=\"index.html\">Home</a></li>",
-	 	"<li class=\"nav\"><a href=\"birthdays.html\">Birthdays</a></li>",
+	 	"<li class=\"nav\"><a href=\"celebrations.html\">Celebrations</a></li>",
 	 	"<li class=\"nav\"><a href=\"weddings.html\">Weddings</a></li>",
 	 	"<li class=\"nav\"><a href=\"promotions.html\">Promotions</a></li>",
 	 	"<li class=\"nav\"><a href=\"gallery.html\">Gallery</a></li>",
