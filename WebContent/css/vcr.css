@@ -51,8 +51,8 @@ p.testim {
 .placeholder {
 	color: #c0c0c0;
 	font-family: 'Roboto Slab', serif;
-	border-style: solid;
-	border-width: 0.01em;
+	/*border-style: solid;
+	border-width: 0.01em;*/
 }
 
 .center {
