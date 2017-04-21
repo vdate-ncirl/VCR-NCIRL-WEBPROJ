@@ -32,28 +32,28 @@
 	//<![CDATA[
 	window.addEvent('domready', function() {
 		var data = {
-			'images/wed/1.jpg' : {
+			'1.jpg' : {
 				caption : 'Bat cupcakes for Halloween'
 			},
-			'images/wed/2.jpg' : {
+			'2.jpg' : {
 				caption : 'A Wintery cake'
 			},
-			'images/wed/3.jpg' : {
+			'3.jpg' : {
 				caption : "A New Year's cake"
 			},
-			'images/wed/4.jpg' : {
+			'4.jpg' : {
 				caption : 'A Birthday cake'
 			},
-			'images/wed/5.jpg' : {
+			'5.jpg' : {
 				caption : "A Valentine's Day cake"
 			},
-			'images/wed/6.jpg' : {
+			'6.jpg' : {
 				caption : 'A Wedding cake'
 			},
-			'images/wed/7.jpg' : {
+			'7.jpg' : {
 				caption : 'A novelty Birthday cake'
 			},
-			'images/wed/8.jpg' : {
+			'8.jpg' : {
 				caption : 'A novelty octopus cake'
 			}
 		};
@@ -61,7 +61,7 @@
 		var myShow = new Slideshow('show', data, {
 			controller : true,
 			height : 300,
-			hu : 'images/small',
+			hu : 'images/wed',
 			thumbnails : false,
 			width : 400
 		});
@@ -105,11 +105,12 @@
 		</script>
 	</div>
 
-<!-- Here is the slideshow element. Source: http://www.electricprism.com/aeron/slideshow/ -->
+	<!-- Here is the slideshow element. Source: http://www.electricprism.com/aeron/slideshow/ -->
 	<div class="thumb1">
-	<div id="show" class="slideshow">
-		<img src="images/wed/1.jpg" width="400" height="300" alt="Wedding cake" />
-	</div>
+		<div id="show" class="slideshow">
+			<img src="images/wed/1.jpg" width="400" height="300"
+				alt="Wedding cake" />
+		</div>
 	</div>
 
 	<div class="testimonial">
