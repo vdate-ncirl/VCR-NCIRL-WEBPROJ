@@ -5,7 +5,7 @@ var navlinks = [
 	 	"<li class=\"nav\"><a href=\"promotions.html\">Promotions</a></li>",
 	 	"<li class=\"nav\"><a href=\"gallery.html\">Gallery</a></li>",
 	 	"<li class=\"nav\"><a href=\"blog.html\">Blog</a></li>",
-	 	"<li class=\"nav\"><a href=\"pricing.html\">Pricing</a></li>"
+	 	"<li class=\"nav\"><a href=\"pricing.html\">Pricing, T&C's</a></li>"
 ];
 
 function navbar() {
