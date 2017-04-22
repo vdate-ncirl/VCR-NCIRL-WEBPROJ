@@ -55,17 +55,15 @@
 		</script>
 	</div>
 
+	<!-- Content Block -->
+	<div id="blogpage"></div>
 	<div id="content" class="placeholder newrow">
-
 		<!-- Content Block -->
-		<div id="blogpage"></div>
-		<div id="content" class="placeholder newrow">
-			<!-- Content Block -->
-			<script type="text/javascript">
-				document.getElementById("blogpage").innerHTML = getblogs(0)
-			</script>
-			<button type="button" onclick="next();">Show More Blogs</button>
-		</div>
+		<script type="text/javascript">
+			document.getElementById("blogpage").innerHTML = getblogs(0)
+		</script>
+		<button type="button" onclick="next();">Show More Blogs</button>
+	</div>
 	</div>
 
 	<div class="placeholder newrow">
