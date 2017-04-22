@@ -73,6 +73,9 @@ p.testim {
 	font-size: 1em;
 }
 
+p.w3logo {
+	float: left;
+}
 
 .placeholder {
 	color: #c0c0c0;
