@@ -73,7 +73,9 @@ Notes:
 */
 
 .slideshow {
-	height: auto; margin: 0 auto; width: 400px;
+	height: auto; 
+	margin: 0 auto;
+	width: 400px;
 }
 .slideshow a img {
 	border: 0;
