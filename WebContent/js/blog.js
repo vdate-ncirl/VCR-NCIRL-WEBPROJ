@@ -1,13 +1,13 @@
 var i = 0;
-var MAX_LINKS_TOSHOW = 3; 
+var MAX_LINKS_TOSHOW = 5; 
 var blogs = 
 	[
-		"<a href=\"blogs\How_to_Choose_Your_Wedding_Cake\">  How to Choose Your Wedding Cake </a><br>",
-		"<a href=\"blogs\Desserts_in_a_jiffy\">  Desserts in a jiffy  </a><br>",
-		"<a href=\"blogs\Egg_Free_Baking\"> Egg Free Baking </a><br>",
-		"<a href=\"blogs\Bake_with_Alcohol\"> Bake with Alcohol </a><br>",
-		"<a href=\"blogs\Baking_Temprature_Control\"> Baking Temprature Control </a><br>",
-		"<a href=\"blogs\Sugar_plus_plus\"> Sugar plus plus </a><br>",
+		"<a href=\"http://asimplecake.blogspot.co.uk/2011/11/how-to-choose-best-tasting-wedding-cake.html\">  How to Choose Your Wedding Cake </a><br>",
+		"<a href=\"http://utterlyscrummy.blogspot.co.uk/2014/04/dead-easy-desserts-round-up-march.html\">  Dead Easy Desserts Round Up  </a><br>",
+		"<a href=\"http://eggfreebakery.blogspot.co.uk\"> Egg Free Baking </a><br>",
+		"<a href=\"http://www.bakeitwithbooze.com/2011/09/how-boozey-is-your-baking.html\"> Bake with Alcohol </a><br>",
+		"<a href=\"http://www.homecooksrecipe.com/2010/03/baking-in-otg.html\"> Baking Temperature Control - Baking in OTG</a><br>",
+		"<a href=\"http://www.sugarfreelikeme.com/p/what-to-buy-for-sflc-baking.html\"> Sugarfree LC baking </a><br>",
 		"<a href=\"blogs\Milk,_What's_best_for_baking\"> Milk, What's best for baking? </a><br>",
 		"<a href=\"blogs\Organic_Eggs_makes_best_cakes\">  Organic Eggs makes best cakes </a><br>",
 		"<a href=\"blogs\A_simple_cake_in_hurry\"> A simple cake in hurry </a><br>",
