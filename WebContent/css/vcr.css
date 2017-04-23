@@ -146,12 +146,12 @@ p.w3logo {
 
 #contact {
 	float: left;
-	width: 10%;
-	margin-top: 6em;
-	margin-left: 4em;
+	width: 15%;
+	margin-top: 3em;
+	margin-left: 1em;
 	padding: 0;
 	overflow: hidden;
-	text-align: left;
+	text-align: center;
 	font-family: 'Roboto Slab', serif;
 	color: white;
 }
