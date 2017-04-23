@@ -38,9 +38,9 @@ tr:nth-child(even) {
 	*/
 	overflow: hidden;
 	background-color: pink;
-	border-style: solid;
-	border-width: medium;
-	border-color: pink;
+/*	border-style: solid;
+	border-width: medium; // Border not needed
+	border-color: pink; */
 	margin: 1em;
 }
 
