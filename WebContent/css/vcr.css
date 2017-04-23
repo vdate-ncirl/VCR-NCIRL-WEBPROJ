@@ -171,8 +171,7 @@ p.w3logo {
 #map {
 	float: left;
 	width: 55%;
-	margin-left: 6em;
-	text-align: center;
+		text-align: center;
 }
 
 img {
