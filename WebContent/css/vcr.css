@@ -131,6 +131,10 @@ p.testim {
 	font-size: 1em;
 }
 
+p.disclaimer {
+	font-size: 0.7em;
+}
+
 p.w3logo {
 	float: left;
 }
