@@ -30,16 +30,42 @@ tr:nth-child(even) {
 	background-color: #f2f2f2
 }
 
-ul.nav {
+.nav {
+	/* 
 	list-style-type: none;
 	margin: 0.5em;
-	padding: 0;
+	padding: 0; 
+	*/
 	overflow: hidden;
 	background-color: pink;
 	border-style: solid;
 	border-width: medium;
 	border-color: pink;
+	margin: 1em;
 }
+
+
+.nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Roboto Slab', serif;
+}
+
+.nav a:visited {
+    color: white;
+}
+
+.nav a:hover {
+	color: red;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
 
 a.link {
 	color: blue;
