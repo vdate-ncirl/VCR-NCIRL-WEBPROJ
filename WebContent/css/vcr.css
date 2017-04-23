@@ -39,32 +39,30 @@ ul.nav {
 	border-style: solid;
 	border-width: medium;
 	border-color: pink;
-	
- 
 }
 
 a.link {
-    color: blue;
-    background-color: transparent;
-    text-decoration: none;
+	color: blue;
+	background-color: transparent;
+	text-decoration: none;
 }
 
 a:visited {
-    color: blue;
-    background-color: transparent;
-    text-decoration: none;
+	color: blue;
+	background-color: transparent;
+	text-decoration: none;
 }
 
 a:hover {
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
+	color: red;
+	background-color: transparent;
+	text-decoration: underline;
 }
 
 a:hover {
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
+	color: red;
+	background-color: transparent;
+	text-decoration: underline;
 }
 
 li.nav {
@@ -93,7 +91,6 @@ div.lefttxt {
 	font-size: 1.5em;
 	font-family: 'Indie Flower', cursive;
 	color: #d2691e; /* Chocolate Colour */
-	
 }
 
 p {
@@ -145,7 +142,7 @@ p.w3logo {
 	text-align: center;
 	border-style: none;
 	color: blue;
-	}
+}
 
 #contact {
 	float: left;
