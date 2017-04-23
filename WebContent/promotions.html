@@ -23,12 +23,15 @@
 	type="image/png/ico" />
 <title>Lol Cakes. Cakes for all occasions.</title>
 
+<!-- Utility Javascripts -->
+<script type="text/javascript" src="js/validate-email.js"></script>
+<script src="js/navbar.js" type="text/javascript"></script>
+
 <!-- Below is the initialization for the slideshow -->
 <script type="text/javascript" src="js/mootools.js"></script>
 <script type="text/javascript" src="js/slideshow.js"></script>
 <!-- just as a reserve <script type="text/javascript" src="js/slideshow.kenburns.js"></script> -->
 
-<script src="js/navbar.js" type="text/javascript"></script>
 </head>
 <body>
 	<div class="placeholder newrow">
@@ -81,7 +84,21 @@
 		<div id="contact" class="placeholder newrow">
 			Lol Cakes<br /> River Vale, Ashtown<br /> Dublin, Ireland<br />
 			Call (01) 234 5678
+
+			<div class="mail">
+				<h3>Join our newsgroup</h3>
+				<form name="form1" action="#">
+					<ul id="mail_form_items">
+						<li><input type='text' name='text1' /></li>
+						<li>&nbsp;</li>
+						<li class="submit"><input type="submit" name="submit"
+							value="Submit" onclick="ValidateEmail(document.form1.text1)" /></li>
+						<li>&nbsp;</li>
+					</ul>
+				</form>
+			</div>
 		</div>
+
 
 		<div id="map" class="placeholder">
 			<iframe
