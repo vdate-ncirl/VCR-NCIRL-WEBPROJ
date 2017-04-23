@@ -201,7 +201,8 @@ ul#mail_form_items {
 
 #map {
 	margin-top: 1em;
-	margin-bottom: 1em;
+	margin-bottom: 2em;
+	padding: 0.1em;
 	float: left;
 	width: 50%;
 	text-align: left;
