@@ -1,4 +1,4 @@
-/* Email Validation script obtained example cited in from w3scools */
+/* Email Validation script obtained example cited in from w3schools.com */
 function ValidateEmail(inputText)  
     {  
     var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;  
