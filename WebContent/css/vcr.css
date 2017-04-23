@@ -102,11 +102,17 @@ div.thumb1 {
 	width: 60%;
 	padding: 8px;
 }
+div.wedcakeimg {
+	float: left;
+	padding: 8px;
+	width: auto;
+}
 
 div.testimonial {
 	color: black;
 	width: auto;
-	margin-left: 10%;
+/*	margin-left: 10%; */
+
 }
 
 div.righttext {
@@ -129,6 +135,7 @@ p {
 
 p.testim {
 	font-size: 1em;
+	padding: 5%;
 }
 
 p.disclaimer {

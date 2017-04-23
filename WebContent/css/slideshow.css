@@ -51,7 +51,7 @@ Notes:
 */
 
 .slideshow-images {
-	height: 300px; width: 400px;
+	height: 450px; width: 600px;
 }		
 .slideshow-images-visible { 
 	opacity: 1;
@@ -75,7 +75,7 @@ Notes:
 .slideshow {
 	height: auto; 
 	margin: 0 auto;
-	width: 400px;
+	width: 600px;
 }
 .slideshow a img {
 	border: 0;
