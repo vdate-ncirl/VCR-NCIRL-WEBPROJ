@@ -4,7 +4,7 @@ var navlinks = [
 	 	"<a href=\"weddings.html\">Weddings</a>",
 	 	"<a href=\"promotions.html\">Promotions</a>",
 	 	"<a href=\"gallery.html\">Gallery</a>",
-	 	"<a href=\"blog.html\">Blog</a>",
+	 	/*"<a href=\"blog.html\">Blog</a>",*/
 	 	"<a href=\"pricing.html\">Pricing, T&C's</a>"
 ];
 
