@@ -38,26 +38,25 @@ tr:nth-child(even) {
 	*/
 	overflow: hidden;
 	background-color: pink;
-	border-style: solid;
-	border-width: medium;
-	border-color: pink;
+/*	border-style: solid;
+	border-width: medium; // Border not needed
+	border-color: pink; */
 	margin: 1em;
 }
 
-
 .nav a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 1em;
-    text-decoration: none;
-    font-size: 1em;
-    font-family: 'Roboto Slab', serif;
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 1em;
+	text-decoration: none;
+	font-size: 1em;
+	font-family: 'Roboto Slab', serif;
 }
 
 .nav a:visited {
-    color: white;
+	color: white;
 }
 
 .nav a:hover {
@@ -65,7 +64,6 @@ tr:nth-child(even) {
 	background-color: transparent;
 	text-decoration: underline;
 }
-
 
 a.link {
 	color: blue;
@@ -102,6 +100,7 @@ div.thumb1 {
 	width: 60%;
 	padding: 8px;
 }
+
 div.wedcakeimg {
 	float: left;
 	padding: 8px;
@@ -111,8 +110,7 @@ div.wedcakeimg {
 div.testimonial {
 	color: black;
 	width: auto;
-/*	margin-left: 10%; */
-
+	/*	margin-left: 10%; */
 }
 
 div.righttext {
@@ -194,11 +192,10 @@ p.w3logo {
 	color: white;
 }
 
-ul#mail_form_items {
-    list-style-type:none;
-} {
+#mail_form_items {
 	list-style-type: none;
 }
+
 #footer {
 	margin: 1em;
 	display: block;
@@ -206,9 +203,7 @@ ul#mail_form_items {
 	overflow: hidden;
 	text-align: center;
 	background-color: pink;
-	border-style: solid;
-	border-width: medium;
-	border-color: pink;
+
 }
 
 #map {
