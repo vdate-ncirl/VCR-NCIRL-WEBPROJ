@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_OYkQzC6YEeeCuJ2VO-neEQ" name="Minecraft">
+  <packageImport xmi:id="_OYkQzS6YEeeCuJ2VO-neEQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:id="_OYkQzi6YEeeCuJ2VO-neEQ">
+    <importedPackage xmi:type="uml:Model" href="RoseAnalysisDatatypes.uml#_OYjo_C6YEeeCuJ2VO-neEQ"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_OYkQzy6YEeeCuJ2VO-neEQ" name="Player" clientDependency="_OYk3Ei6YEeeCuJ2VO-neEQ _OYk3Gy6YEeeCuJ2VO-neEQ _OYk3IS6YEeeCuJ2VO-neEQ _OYk3Ii6YEeeCuJ2VO-neEQ">
+    <ownedAttribute xmi:id="_OYkQ0C6YEeeCuJ2VO-neEQ" name="game" visibility="private" type="_OYk3Iy6YEeeCuJ2VO-neEQ" aggregation="shared" association="_OYk3Ny6YEeeCuJ2VO-neEQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OYkQ0S6YEeeCuJ2VO-neEQ" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OYkQ0i6YEeeCuJ2VO-neEQ"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_OYkQ0y6YEeeCuJ2VO-neEQ" name="game" visibility="private" type="_OYk3Iy6YEeeCuJ2VO-neEQ" association="_OYk3OC6YEeeCuJ2VO-neEQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OYkQ1C6YEeeCuJ2VO-neEQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OYkQ1S6YEeeCuJ2VO-neEQ" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_OYkQ1i6YEeeCuJ2VO-neEQ" name="uIManager" visibility="private" type="_OYk3Sy6YEeeCuJ2VO-neEQ" association="_OYk3VS6YEeeCuJ2VO-neEQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OYkQ1y6YEeeCuJ2VO-neEQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OYkQ2C6YEeeCuJ2VO-neEQ" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_OYkQ2S6YEeeCuJ2VO-neEQ" name="build"/>
+    <ownedOperation xmi:id="_OYkQ2i6YEeeCuJ2VO-neEQ" name="gatherResources"/>
+    <ownedOperation xmi:id="_OYkQ2y6YEeeCuJ2VO-neEQ" name="createWorld"/>
+    <ownedOperation xmi:id="_OYkQ3C6YEeeCuJ2VO-neEQ" name="gatherTools"/>
+    <ownedOperation xmi:id="_OYkQ3S6YEeeCuJ2VO-neEQ" name="listResources"/>
+    <ownedOperation xmi:id="_OYkQ3i6YEeeCuJ2VO-neEQ" name="trade"/>
+    <ownedOperation xmi:id="_OYkQ3y6YEeeCuJ2VO-neEQ" name="checkResourceStatus"/>
+    <ownedOperation xmi:id="_OYkQ4C6YEeeCuJ2VO-neEQ" name="addItem"/>
+    <ownedOperation xmi:id="_OYkQ4S6YEeeCuJ2VO-neEQ" name="accept"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_OYkQ4i6YEeeCuJ2VO-neEQ" name="Shopkeeper">
+    <generalization xmi:id="_OYkQ4y6YEeeCuJ2VO-neEQ" general="_OYkQzy6YEeeCuJ2VO-neEQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_OYkQ5C6YEeeCuJ2VO-neEQ" name="ActualPlayer">
+    <generalization xmi:id="_OYkQ5S6YEeeCuJ2VO-neEQ" general="_OYkQzy6YEeeCuJ2VO-neEQ"/>
+    <ownedOperation xmi:id="_OYkQ5i6YEeeCuJ2VO-neEQ" name="login"/>
+    <ownedOperation xmi:id="_OYkQ5y6YEeeCuJ2VO-neEQ" name="start"/>
+    <ownedOperation xmi:id="_OYkQ6C6YEeeCuJ2VO-neEQ" name="resume"/>
+    <ownedOperation xmi:id="_OYkQ6S6YEeeCuJ2VO-neEQ" name="delete"/>
+    <ownedOperation xmi:id="_OYkQ6i6YEeeCuJ2VO-neEQ" name="save"/>
+    <ownedOperation xmi:id="_OYkQ6y6YEeeCuJ2VO-neEQ" name="deleteAccount"/>
+    <ownedOperation xmi:id="_OYkQ7C6YEeeCuJ2VO-neEQ" name="deleteWorld"/>
+    <ownedOperation xmi:id="_OYkQ7S6YEeeCuJ2VO-neEQ" name="pay"/>
+    <ownedOperation xmi:id="_OYkQ7i6YEeeCuJ2VO-neEQ" name="attack"/>
+    <ownedOperation xmi:id="_OYkQ7y6YEeeCuJ2VO-neEQ" name="searchTarget"/>
+    <ownedOperation xmi:id="_OYkQ8C6YEeeCuJ2VO-neEQ" name="checkHealth"/>
+    <ownedOperation xmi:id="_OYkQ8S6YEeeCuJ2VO-neEQ" name="checkDamage"/>
+    <ownedOperation xmi:id="_OYkQ8i6YEeeCuJ2VO-neEQ" name="searchBuildArea"/>
+    <ownedOperation xmi:id="_OYkQ8y6YEeeCuJ2VO-neEQ" name="checkBuildStatus"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_OYkQ9C6YEeeCuJ2VO-neEQ" name="PlayerManager" clientDependency="_OYk3RC6YEeeCuJ2VO-neEQ">
+    <ownedOperation xmi:id="_OYkQ9S6YEeeCuJ2VO-neEQ" name="createPlayer"/>
+    <ownedOperation xmi:id="_OYkQ9i6YEeeCuJ2VO-neEQ" name="updatePlayer"/>
+    <ownedOperation xmi:id="_OYkQ9y6YEeeCuJ2VO-neEQ" name="deletePlayer"/>
+    <ownedOperation xmi:id="_OYk3EC6YEeeCuJ2VO-neEQ" name="managePayments"/>
+    <ownedOperation xmi:id="_OYk3ES6YEeeCuJ2VO-neEQ" name="login"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_OYk3Ei6YEeeCuJ2VO-neEQ" name="Manages Player" supplier="_OYkQ9C6YEeeCuJ2VO-neEQ" client="_OYkQzy6YEeeCuJ2VO-neEQ"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_OYk3Ey6YEeeCuJ2VO-neEQ" name="ResourceManager" clientDependency="_OYk3Si6YEeeCuJ2VO-neEQ">
+    <ownedOperation xmi:id="_OYk3FC6YEeeCuJ2VO-neEQ" name="addResource"/>
+    <ownedOperation xmi:id="_OYk3FS6YEeeCuJ2VO-neEQ" name="updateResource"/>
+    <ownedOperation xmi:id="_OYk3Fi6YEeeCuJ2VO-neEQ" name="deleteResource"/>
+    <ownedOperation xmi:id="_OYk3Fy6YEeeCuJ2VO-neEQ" name="getResourcesForPlayer"/>
+    <ownedOperation xmi:id="_OYk3GC6YEeeCuJ2VO-neEQ" name="addMoney"/>
+    <ownedOperation xmi:id="_OYk3GS6YEeeCuJ2VO-neEQ" name="updateMoney"/>
+    <ownedOperation xmi:id="_OYk3Gi6YEeeCuJ2VO-neEQ" name="deleteMoney"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_OYk3Gy6YEeeCuJ2VO-neEQ" name="Implements Managing Resources" supplier="_OYk3Ey6YEeeCuJ2VO-neEQ" client="_OYkQzy6YEeeCuJ2VO-neEQ"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_OYk3HC6YEeeCuJ2VO-neEQ" name="ToolsManager" clientDependency="_OYk3SS6YEeeCuJ2VO-neEQ">
+    <ownedOperation xmi:id="_OYk3HS6YEeeCuJ2VO-neEQ" name="addTools"/>
+    <ownedOperation xmi:id="_OYk3Hi6YEeeCuJ2VO-neEQ" name="updateTools"/>
+    <ownedOperation xmi:id="_OYk3Hy6YEeeCuJ2VO-neEQ" name="deleteTools"/>
+    <ownedOperation xmi:id="_OYk3IC6YEeeCuJ2VO-neEQ" name="getToolsForPlayer"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_OYk3IS6YEeeCuJ2VO-neEQ" name="Implements Managing Tools" supplier="_OYk3HC6YEeeCuJ2VO-neEQ" client="_OYkQzy6YEeeCuJ2VO-neEQ"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_OYk3Ii6YEeeCuJ2VO-neEQ" name="Manages Player" supplier="_OYkQ9C6YEeeCuJ2VO-neEQ" client="_OYkQzy6YEeeCuJ2VO-neEQ"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_OYk3Iy6YEeeCuJ2VO-neEQ" name="Game" clientDependency="_OYk3Qy6YEeeCuJ2VO-neEQ _OYk3Ri6YEeeCuJ2VO-neEQ">
+    <ownedAttribute xmi:id="_OYk3JC6YEeeCuJ2VO-neEQ" name="player" visibility="private" type="_OYkQzy6YEeeCuJ2VO-neEQ" association="_OYk3Ny6YEeeCuJ2VO-neEQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OYk3JS6YEeeCuJ2VO-neEQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OYk3Ji6YEeeCuJ2VO-neEQ" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_OYk3Jy6YEeeCuJ2VO-neEQ" name="player1" visibility="private" type="_OYkQzy6YEeeCuJ2VO-neEQ" aggregation="composite" association="_OYk3OC6YEeeCuJ2VO-neEQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OYk3KC6YEeeCuJ2VO-neEQ" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OYk3KS6YEeeCuJ2VO-neEQ"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_OYk3Ki6YEeeCuJ2VO-neEQ" name="world" visibility="private" type="_OYk3OS6YEeeCuJ2VO-neEQ" aggregation="composite" association="_OYk3Pi6YEeeCuJ2VO-neEQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OYk3Ky6YEeeCuJ2VO-neEQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OYk3LC6YEeeCuJ2VO-neEQ" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_OYk3LS6YEeeCuJ2VO-neEQ" name="uIManager" visibility="private" type="_OYk3Sy6YEeeCuJ2VO-neEQ" aggregation="composite" association="_OYk3US6YEeeCuJ2VO-neEQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OYk3Li6YEeeCuJ2VO-neEQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OYk3Ly6YEeeCuJ2VO-neEQ" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_OYk3MC6YEeeCuJ2VO-neEQ" name="new"/>
+    <ownedOperation xmi:id="_OYk3MS6YEeeCuJ2VO-neEQ" name="resume"/>
+    <ownedOperation xmi:id="_OYk3Mi6YEeeCuJ2VO-neEQ" name="save"/>
+    <ownedOperation xmi:id="_OYk3My6YEeeCuJ2VO-neEQ" name="createWorld"/>
+    <ownedOperation xmi:id="_OYk3NC6YEeeCuJ2VO-neEQ" name="updateWorld"/>
+    <ownedOperation xmi:id="_OYk3NS6YEeeCuJ2VO-neEQ" name="deleteWorld"/>
+    <ownedOperation xmi:id="_OYk3Ni6YEeeCuJ2VO-neEQ" name="login"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_OYk3Ny6YEeeCuJ2VO-neEQ" name="Game Has Player" memberEnd="_OYkQ0C6YEeeCuJ2VO-neEQ _OYk3JC6YEeeCuJ2VO-neEQ"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_OYk3OC6YEeeCuJ2VO-neEQ" name="Game Has Players" memberEnd="_OYk3Jy6YEeeCuJ2VO-neEQ _OYkQ0y6YEeeCuJ2VO-neEQ"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_OYk3OS6YEeeCuJ2VO-neEQ" name="World" clientDependency="_OYk3SC6YEeeCuJ2VO-neEQ _OYk3Ry6YEeeCuJ2VO-neEQ">
+    <ownedAttribute xmi:id="_OYk3Oi6YEeeCuJ2VO-neEQ" name="game" visibility="private" type="_OYk3Iy6YEeeCuJ2VO-neEQ" association="_OYk3Pi6YEeeCuJ2VO-neEQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OYk3Oy6YEeeCuJ2VO-neEQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OYk3PC6YEeeCuJ2VO-neEQ" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_OYk3PS6YEeeCuJ2VO-neEQ" name="buildPlayerID"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_OYk3Pi6YEeeCuJ2VO-neEQ" name="Game Has World" memberEnd="_OYk3Ki6YEeeCuJ2VO-neEQ _OYk3Oi6YEeeCuJ2VO-neEQ"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_OYk3Py6YEeeCuJ2VO-neEQ" name="WorldManager" clientDependency="_OYk3RS6YEeeCuJ2VO-neEQ">
+    <ownedOperation xmi:id="_OYk3QC6YEeeCuJ2VO-neEQ" name="createWorld"/>
+    <ownedOperation xmi:id="_OYk3QS6YEeeCuJ2VO-neEQ" name="updateWorld"/>
+    <ownedOperation xmi:id="_OYk3Qi6YEeeCuJ2VO-neEQ" name="deleteWorld"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_OYk3Qy6YEeeCuJ2VO-neEQ" name="WorldManager provides World serialisation to Game" supplier="_OYk3Py6YEeeCuJ2VO-neEQ" client="_OYk3Iy6YEeeCuJ2VO-neEQ"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_OYk3RC6YEeeCuJ2VO-neEQ" name="Manages Player" supplier="_OYkQzy6YEeeCuJ2VO-neEQ" client="_OYkQ9C6YEeeCuJ2VO-neEQ"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_OYk3RS6YEeeCuJ2VO-neEQ" name="Manages World" supplier="_OYk3OS6YEeeCuJ2VO-neEQ" client="_OYk3Py6YEeeCuJ2VO-neEQ"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_OYk3Ri6YEeeCuJ2VO-neEQ" supplier="_OYkQ9C6YEeeCuJ2VO-neEQ" client="_OYk3Iy6YEeeCuJ2VO-neEQ"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_OYk3Ry6YEeeCuJ2VO-neEQ" supplier="_OYk3HC6YEeeCuJ2VO-neEQ" client="_OYk3OS6YEeeCuJ2VO-neEQ"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_OYk3SC6YEeeCuJ2VO-neEQ" supplier="_OYk3Ey6YEeeCuJ2VO-neEQ" client="_OYk3OS6YEeeCuJ2VO-neEQ"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_OYk3SS6YEeeCuJ2VO-neEQ" supplier="_OYkQzy6YEeeCuJ2VO-neEQ" client="_OYk3HC6YEeeCuJ2VO-neEQ"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_OYk3Si6YEeeCuJ2VO-neEQ" supplier="_OYkQzy6YEeeCuJ2VO-neEQ" client="_OYk3Ey6YEeeCuJ2VO-neEQ"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_OYk3Sy6YEeeCuJ2VO-neEQ" name="UIManager">
+    <ownedAttribute xmi:id="_OYk3TC6YEeeCuJ2VO-neEQ" name="player" visibility="private" type="_OYkQzy6YEeeCuJ2VO-neEQ" association="_OYk3VS6YEeeCuJ2VO-neEQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OYk3TS6YEeeCuJ2VO-neEQ" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OYk3Ti6YEeeCuJ2VO-neEQ" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_OYk3Ty6YEeeCuJ2VO-neEQ" name="draw"/>
+    <ownedOperation xmi:id="_OYk3UC6YEeeCuJ2VO-neEQ" name="refresh"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_OYk3US6YEeeCuJ2VO-neEQ" name="Games Has UIManager" memberEnd="_OYk3LS6YEeeCuJ2VO-neEQ _OYk3Ui6YEeeCuJ2VO-neEQ">
+    <ownedEnd xmi:id="_OYk3Ui6YEeeCuJ2VO-neEQ" name="" visibility="private" type="_OYk3Iy6YEeeCuJ2VO-neEQ" association="_OYk3US6YEeeCuJ2VO-neEQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OYk3Uy6YEeeCuJ2VO-neEQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OYk3VC6YEeeCuJ2VO-neEQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_OYk3VS6YEeeCuJ2VO-neEQ" name="Player Has UI" memberEnd="_OYk3TC6YEeeCuJ2VO-neEQ _OYkQ1i6YEeeCuJ2VO-neEQ"/>
+  <packagedElement xmi:type="uml:Collaboration" xmi:id="_OYk3Vi6YEeeCuJ2VO-neEQ" name="Collaboration1">
+    <ownedBehavior xmi:type="uml:Interaction" xmi:id="_OYk3Vy6YEeeCuJ2VO-neEQ" name="Trade">
+      <ownedConnector xmi:id="_OYk3WC6YEeeCuJ2VO-neEQ">
+        <end xmi:id="_OYk3WS6YEeeCuJ2VO-neEQ" role="_OYk3fi6YEeeCuJ2VO-neEQ"/>
+        <end xmi:id="_OYk3Wi6YEeeCuJ2VO-neEQ" role="_OYk3fS6YEeeCuJ2VO-neEQ"/>
+      </ownedConnector>
+      <lifeline xmi:id="_OYk3Wy6YEeeCuJ2VO-neEQ" name="player" represents="_OYk3fS6YEeeCuJ2VO-neEQ" coveredBy="_OYk3XS6YEeeCuJ2VO-neEQ _OYk3YS6YEeeCuJ2VO-neEQ _OYk3Yi6YEeeCuJ2VO-neEQ _OYk3Zi6YEeeCuJ2VO-neEQ _OYk3ai6YEeeCuJ2VO-neEQ _OYk3by6YEeeCuJ2VO-neEQ _OYk3cC6YEeeCuJ2VO-neEQ _OYk3cS6YEeeCuJ2VO-neEQ _OYk3cy6YEeeCuJ2VO-neEQ _OYk3dC6YEeeCuJ2VO-neEQ _OYk3dS6YEeeCuJ2VO-neEQ"/>
+      <lifeline xmi:id="_OYk3XC6YEeeCuJ2VO-neEQ" name="System" represents="_OYk3fi6YEeeCuJ2VO-neEQ" coveredBy="_OYk3Xi6YEeeCuJ2VO-neEQ _OYk3Xy6YEeeCuJ2VO-neEQ _OYk3YC6YEeeCuJ2VO-neEQ _OYk3Yy6YEeeCuJ2VO-neEQ _OYk3ZC6YEeeCuJ2VO-neEQ _OYk3ZS6YEeeCuJ2VO-neEQ _OYk3Zy6YEeeCuJ2VO-neEQ _OYk3aC6YEeeCuJ2VO-neEQ _OYk3aS6YEeeCuJ2VO-neEQ _OYk3ay6YEeeCuJ2VO-neEQ _OYk3bC6YEeeCuJ2VO-neEQ _OYk3bS6YEeeCuJ2VO-neEQ _OYk3bi6YEeeCuJ2VO-neEQ _OYk3ci6YEeeCuJ2VO-neEQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_OYk3XS6YEeeCuJ2VO-neEQ" covered="_OYk3Wy6YEeeCuJ2VO-neEQ" event="_OYk3fy6YEeeCuJ2VO-neEQ" message="_OYk3di6YEeeCuJ2VO-neEQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_OYk3Xi6YEeeCuJ2VO-neEQ" covered="_OYk3XC6YEeeCuJ2VO-neEQ" event="_OYk3gC6YEeeCuJ2VO-neEQ" message="_OYk3di6YEeeCuJ2VO-neEQ"/>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_OYk3Xy6YEeeCuJ2VO-neEQ" covered="_OYk3XC6YEeeCuJ2VO-neEQ" start="_OYk3Xi6YEeeCuJ2VO-neEQ" finish="_OYk3YC6YEeeCuJ2VO-neEQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_OYk3YC6YEeeCuJ2VO-neEQ" covered="_OYk3XC6YEeeCuJ2VO-neEQ" event="_OYk3fy6YEeeCuJ2VO-neEQ" message="_OYk3dy6YEeeCuJ2VO-neEQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_OYk3YS6YEeeCuJ2VO-neEQ" covered="_OYk3Wy6YEeeCuJ2VO-neEQ" event="_OYk3gC6YEeeCuJ2VO-neEQ" message="_OYk3dy6YEeeCuJ2VO-neEQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_OYk3Yi6YEeeCuJ2VO-neEQ" covered="_OYk3Wy6YEeeCuJ2VO-neEQ" event="_OYk3fy6YEeeCuJ2VO-neEQ" message="_OYk3eC6YEeeCuJ2VO-neEQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_OYk3Yy6YEeeCuJ2VO-neEQ" covered="_OYk3XC6YEeeCuJ2VO-neEQ" event="_OYk3gC6YEeeCuJ2VO-neEQ" message="_OYk3eC6YEeeCuJ2VO-neEQ"/>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_OYk3ZC6YEeeCuJ2VO-neEQ" covered="_OYk3XC6YEeeCuJ2VO-neEQ" start="_OYk3Yy6YEeeCuJ2VO-neEQ" finish="_OYk3ZS6YEeeCuJ2VO-neEQ"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_OYk3ZS6YEeeCuJ2VO-neEQ" covered="_OYk3XC6YEeeCuJ2VO-neEQ" event="_OYk3hi6YEeeCuJ2VO-neEQ" execution="_OYk3ZC6YEeeCuJ2VO-neEQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_OYk3Zi6YEeeCuJ2VO-neEQ" covered="_OYk3Wy6YEeeCuJ2VO-neEQ" event="_OYk3fy6YEeeCuJ2VO-neEQ" message="_OYk3eS6YEeeCuJ2VO-neEQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_OYk3Zy6YEeeCuJ2VO-neEQ" covered="_OYk3XC6YEeeCuJ2VO-neEQ" event="_OYk3gC6YEeeCuJ2VO-neEQ" message="_OYk3eS6YEeeCuJ2VO-neEQ"/>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_OYk3aC6YEeeCuJ2VO-neEQ" covered="_OYk3XC6YEeeCuJ2VO-neEQ" start="_OYk3Zy6YEeeCuJ2VO-neEQ" finish="_OYk3aS6YEeeCuJ2VO-neEQ"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_OYk3aS6YEeeCuJ2VO-neEQ" covered="_OYk3XC6YEeeCuJ2VO-neEQ" event="_OYk3hy6YEeeCuJ2VO-neEQ" execution="_OYk3aC6YEeeCuJ2VO-neEQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_OYk3ai6YEeeCuJ2VO-neEQ" covered="_OYk3Wy6YEeeCuJ2VO-neEQ" event="_OYk3fy6YEeeCuJ2VO-neEQ" message="_OYk3ei6YEeeCuJ2VO-neEQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_OYk3ay6YEeeCuJ2VO-neEQ" covered="_OYk3XC6YEeeCuJ2VO-neEQ" event="_OYk3gC6YEeeCuJ2VO-neEQ" message="_OYk3ei6YEeeCuJ2VO-neEQ"/>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_OYk3bC6YEeeCuJ2VO-neEQ" covered="_OYk3XC6YEeeCuJ2VO-neEQ" start="_OYk3ay6YEeeCuJ2VO-neEQ" finish="_OYk3bS6YEeeCuJ2VO-neEQ"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_OYk3bS6YEeeCuJ2VO-neEQ" covered="_OYk3XC6YEeeCuJ2VO-neEQ" event="_OYk3iC6YEeeCuJ2VO-neEQ" execution="_OYk3bC6YEeeCuJ2VO-neEQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_OYk3bi6YEeeCuJ2VO-neEQ" covered="_OYk3XC6YEeeCuJ2VO-neEQ" event="_OYk3fy6YEeeCuJ2VO-neEQ" message="_OYk3ey6YEeeCuJ2VO-neEQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_OYk3by6YEeeCuJ2VO-neEQ" covered="_OYk3Wy6YEeeCuJ2VO-neEQ" event="_OYk3gC6YEeeCuJ2VO-neEQ" message="_OYk3ey6YEeeCuJ2VO-neEQ"/>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_OYk3cC6YEeeCuJ2VO-neEQ" covered="_OYk3Wy6YEeeCuJ2VO-neEQ" start="_OYk3by6YEeeCuJ2VO-neEQ" finish="_OYk3cS6YEeeCuJ2VO-neEQ"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_OYk3cS6YEeeCuJ2VO-neEQ" covered="_OYk3Wy6YEeeCuJ2VO-neEQ" event="_OYk3iS6YEeeCuJ2VO-neEQ" execution="_OYk3cC6YEeeCuJ2VO-neEQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_OYk3ci6YEeeCuJ2VO-neEQ" covered="_OYk3XC6YEeeCuJ2VO-neEQ" event="_OYk3fy6YEeeCuJ2VO-neEQ" message="_OYk3fC6YEeeCuJ2VO-neEQ"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_OYk3cy6YEeeCuJ2VO-neEQ" covered="_OYk3Wy6YEeeCuJ2VO-neEQ" event="_OYk3gC6YEeeCuJ2VO-neEQ" message="_OYk3fC6YEeeCuJ2VO-neEQ"/>
+      <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_OYk3dC6YEeeCuJ2VO-neEQ" covered="_OYk3Wy6YEeeCuJ2VO-neEQ" start="_OYk3cy6YEeeCuJ2VO-neEQ" finish="_OYk3dS6YEeeCuJ2VO-neEQ"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_OYk3dS6YEeeCuJ2VO-neEQ" covered="_OYk3Wy6YEeeCuJ2VO-neEQ" event="_OYk3iy6YEeeCuJ2VO-neEQ" execution="_OYk3dC6YEeeCuJ2VO-neEQ"/>
+      <message xmi:id="_OYk3di6YEeeCuJ2VO-neEQ" name="trade(playerID)" receiveEvent="_OYk3Xi6YEeeCuJ2VO-neEQ" sendEvent="_OYk3XS6YEeeCuJ2VO-neEQ" connector="_OYk3WC6YEeeCuJ2VO-neEQ"/>
+      <message xmi:id="_OYk3dy6YEeeCuJ2VO-neEQ" name="trade(playerID)" messageSort="reply" receiveEvent="_OYk3YS6YEeeCuJ2VO-neEQ" sendEvent="_OYk3YC6YEeeCuJ2VO-neEQ" connector="_OYk3WC6YEeeCuJ2VO-neEQ"/>
+      <message xmi:id="_OYk3eC6YEeeCuJ2VO-neEQ" name="addItem(itemID, amount)" messageSort="asynchCall" receiveEvent="_OYk3Yy6YEeeCuJ2VO-neEQ" sendEvent="_OYk3Yi6YEeeCuJ2VO-neEQ" connector="_OYk3WC6YEeeCuJ2VO-neEQ"/>
+      <message xmi:id="_OYk3eS6YEeeCuJ2VO-neEQ" name="addMoney(amount)" messageSort="asynchCall" receiveEvent="_OYk3Zy6YEeeCuJ2VO-neEQ" sendEvent="_OYk3Zi6YEeeCuJ2VO-neEQ" connector="_OYk3WC6YEeeCuJ2VO-neEQ"/>
+      <message xmi:id="_OYk3ei6YEeeCuJ2VO-neEQ" name="accept()" messageSort="asynchCall" receiveEvent="_OYk3ay6YEeeCuJ2VO-neEQ" sendEvent="_OYk3ai6YEeeCuJ2VO-neEQ" connector="_OYk3WC6YEeeCuJ2VO-neEQ"/>
+      <message xmi:id="_OYk3ey6YEeeCuJ2VO-neEQ" name="addItem(itemID, amount)" messageSort="asynchCall" receiveEvent="_OYk3by6YEeeCuJ2VO-neEQ" sendEvent="_OYk3bi6YEeeCuJ2VO-neEQ" connector="_OYk3WC6YEeeCuJ2VO-neEQ"/>
+      <message xmi:id="_OYk3fC6YEeeCuJ2VO-neEQ" name="addMoney(amount)" messageSort="asynchCall" receiveEvent="_OYk3cy6YEeeCuJ2VO-neEQ" sendEvent="_OYk3ci6YEeeCuJ2VO-neEQ" connector="_OYk3WC6YEeeCuJ2VO-neEQ"/>
+    </ownedBehavior>
+    <ownedAttribute xmi:id="_OYk3fS6YEeeCuJ2VO-neEQ" name="player"/>
+    <ownedAttribute xmi:id="_OYk3fi6YEeeCuJ2VO-neEQ" name="System"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_OYk3fy6YEeeCuJ2VO-neEQ" name="SendOperationEvent1"/>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_OYk3gC6YEeeCuJ2VO-neEQ" name="ReceiveOperationEvent1"/>
+  <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_OYk3gS6YEeeCuJ2VO-neEQ" name="ExecutionEvent1"/>
+  <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_OYk3gi6YEeeCuJ2VO-neEQ" name="ExecutionEvent2"/>
+  <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_OYk3gy6YEeeCuJ2VO-neEQ" name="ExecutionEvent3"/>
+  <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_OYk3hC6YEeeCuJ2VO-neEQ" name="ExecutionEvent4"/>
+  <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_OYk3hS6YEeeCuJ2VO-neEQ" name="ExecutionEvent5"/>
+  <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_OYk3hi6YEeeCuJ2VO-neEQ" name="ExecutionEvent6"/>
+  <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_OYk3hy6YEeeCuJ2VO-neEQ" name="ExecutionEvent7"/>
+  <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_OYk3iC6YEeeCuJ2VO-neEQ" name="ExecutionEvent8"/>
+  <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_OYk3iS6YEeeCuJ2VO-neEQ" name="ExecutionEvent9"/>
+  <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_OYk3ii6YEeeCuJ2VO-neEQ" name="ExecutionEvent10"/>
+  <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_OYk3iy6YEeeCuJ2VO-neEQ" name="ExecutionEvent11"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_OYk3jC6YEeeCuJ2VO-neEQ" name="Player"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_OYk3jS6YEeeCuJ2VO-neEQ" name="Login" clientDependency="_OYk3qS6YEeeCuJ2VO-neEQ _OYk3si6YEeeCuJ2VO-neEQ _OYk3ti6YEeeCuJ2VO-neEQ _OYk3ty6YEeeCuJ2VO-neEQ _OYk3yi6YEeeCuJ2VO-neEQ">
+    <include xmi:id="_OYk3ji6YEeeCuJ2VO-neEQ" addition="_OYk3mi6YEeeCuJ2VO-neEQ"/>
+    <include xmi:id="_OYk3jy6YEeeCuJ2VO-neEQ" addition="_OYk3mi6YEeeCuJ2VO-neEQ"/>
+    <include xmi:id="_OYk3kC6YEeeCuJ2VO-neEQ" addition="_OYk3mi6YEeeCuJ2VO-neEQ"/>
+    <include xmi:id="_OYk3kS6YEeeCuJ2VO-neEQ" addition="_OYk3ry6YEeeCuJ2VO-neEQ"/>
+    <include xmi:id="_OYk3ki6YEeeCuJ2VO-neEQ" addition="_OYk3uS6YEeeCuJ2VO-neEQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_OYk3ky6YEeeCuJ2VO-neEQ" memberEnd="_OYk3lC6YEeeCuJ2VO-neEQ _OYk3ly6YEeeCuJ2VO-neEQ" navigableOwnedEnd="_OYk3lC6YEeeCuJ2VO-neEQ _OYk3ly6YEeeCuJ2VO-neEQ">
+    <ownedEnd xmi:id="_OYk3lC6YEeeCuJ2VO-neEQ" name="useCase1" visibility="private" type="_OYk3jS6YEeeCuJ2VO-neEQ" association="_OYk3ky6YEeeCuJ2VO-neEQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OYk3lS6YEeeCuJ2VO-neEQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OYk3li6YEeeCuJ2VO-neEQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_OYk3ly6YEeeCuJ2VO-neEQ" name="player" visibility="private" type="_OYk3jC6YEeeCuJ2VO-neEQ" association="_OYk3ky6YEeeCuJ2VO-neEQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OYk3mC6YEeeCuJ2VO-neEQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OYk3mS6YEeeCuJ2VO-neEQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_OYk3mi6YEeeCuJ2VO-neEQ" name="Trade" clientDependency="_OYk3qi6YEeeCuJ2VO-neEQ _OYk3uC6YEeeCuJ2VO-neEQ">
+    <include xmi:id="_OYk3my6YEeeCuJ2VO-neEQ" addition="_OYk3jS6YEeeCuJ2VO-neEQ"/>
+    <include xmi:id="_OYk3nC6YEeeCuJ2VO-neEQ" addition="_OYk3ry6YEeeCuJ2VO-neEQ"/>
+    <include xmi:id="_OYk3nS6YEeeCuJ2VO-neEQ" addition="_OYk3jS6YEeeCuJ2VO-neEQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_OYk3ni6YEeeCuJ2VO-neEQ" name="Game server">
+    <elementImport xmi:id="_OYk3ny6YEeeCuJ2VO-neEQ" importedElement="_OYk3jS6YEeeCuJ2VO-neEQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_OYk3oC6YEeeCuJ2VO-neEQ" name="Trader">
+    <elementImport xmi:id="_OYk3oS6YEeeCuJ2VO-neEQ" importedElement="_OYk3mi6YEeeCuJ2VO-neEQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_OYk3oi6YEeeCuJ2VO-neEQ" memberEnd="_OYk3oy6YEeeCuJ2VO-neEQ _OYk3pi6YEeeCuJ2VO-neEQ" navigableOwnedEnd="_OYk3oy6YEeeCuJ2VO-neEQ _OYk3pi6YEeeCuJ2VO-neEQ">
+    <ownedEnd xmi:id="_OYk3oy6YEeeCuJ2VO-neEQ" name="trade" visibility="private" type="_OYk3uS6YEeeCuJ2VO-neEQ" association="_OYk3oi6YEeeCuJ2VO-neEQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OYk3pC6YEeeCuJ2VO-neEQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OYk3pS6YEeeCuJ2VO-neEQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_OYk3pi6YEeeCuJ2VO-neEQ" name="player 1" visibility="private" type="_OYk3jC6YEeeCuJ2VO-neEQ" association="_OYk3oi6YEeeCuJ2VO-neEQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OYk3py6YEeeCuJ2VO-neEQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OYk3qC6YEeeCuJ2VO-neEQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_OYk3qS6YEeeCuJ2VO-neEQ" supplier="_OYk3mi6YEeeCuJ2VO-neEQ" client="_OYk3jS6YEeeCuJ2VO-neEQ"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_OYk3qi6YEeeCuJ2VO-neEQ" supplier="_OYk3jS6YEeeCuJ2VO-neEQ" client="_OYk3mi6YEeeCuJ2VO-neEQ"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_OYk3qy6YEeeCuJ2VO-neEQ" name="ResourceManager" clientDependency="_OYk3rS6YEeeCuJ2VO-neEQ _OYk3ri6YEeeCuJ2VO-neEQ">
+    <elementImport xmi:id="_OYk3rC6YEeeCuJ2VO-neEQ" importedElement="_OYk3mi6YEeeCuJ2VO-neEQ"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_OYk3rS6YEeeCuJ2VO-neEQ" supplier="_OYk3mi6YEeeCuJ2VO-neEQ" client="_OYk3qy6YEeeCuJ2VO-neEQ"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_OYk3ri6YEeeCuJ2VO-neEQ" supplier="_OYk3xy6YEeeCuJ2VO-neEQ" client="_OYk3qy6YEeeCuJ2VO-neEQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_OYk3ry6YEeeCuJ2VO-neEQ" name="Select Play mode">
+    <include xmi:id="_OYk3sC6YEeeCuJ2VO-neEQ" addition="_OYk3mi6YEeeCuJ2VO-neEQ"/>
+    <include xmi:id="_OYk3sS6YEeeCuJ2VO-neEQ" addition="_OYk3jS6YEeeCuJ2VO-neEQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_OYk3si6YEeeCuJ2VO-neEQ" supplier="_OYk3mi6YEeeCuJ2VO-neEQ" client="_OYk3jS6YEeeCuJ2VO-neEQ"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_OYk3sy6YEeeCuJ2VO-neEQ" name="Shop" clientDependency="_OYk3tS6YEeeCuJ2VO-neEQ">
+    <elementImport xmi:id="_OYk3tC6YEeeCuJ2VO-neEQ" importedElement="_OYk3mi6YEeeCuJ2VO-neEQ"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_OYk3tS6YEeeCuJ2VO-neEQ" supplier="_OYk3mi6YEeeCuJ2VO-neEQ" client="_OYk3sy6YEeeCuJ2VO-neEQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_OYk3ti6YEeeCuJ2VO-neEQ" supplier="_OYk3mi6YEeeCuJ2VO-neEQ" client="_OYk3jS6YEeeCuJ2VO-neEQ"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_OYk3ty6YEeeCuJ2VO-neEQ" name="&lt;&lt;" supplier="_OYk3mi6YEeeCuJ2VO-neEQ" client="_OYk3jS6YEeeCuJ2VO-neEQ"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_OYk3uC6YEeeCuJ2VO-neEQ" supplier="_OYk3jS6YEeeCuJ2VO-neEQ" client="_OYk3mi6YEeeCuJ2VO-neEQ"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_OYk3uS6YEeeCuJ2VO-neEQ" name="Play" clientDependency="_OYk3yS6YEeeCuJ2VO-neEQ">
+    <include xmi:id="_OYk3ui6YEeeCuJ2VO-neEQ" addition="_OYk3jS6YEeeCuJ2VO-neEQ"/>
+    <include xmi:id="_OYk3uy6YEeeCuJ2VO-neEQ" name="" addition="_OYk3mi6YEeeCuJ2VO-neEQ"/>
+    <include xmi:id="_OYk3vC6YEeeCuJ2VO-neEQ" addition="_OYk3xy6YEeeCuJ2VO-neEQ"/>
+    <include xmi:id="_OYk3vS6YEeeCuJ2VO-neEQ" addition="_OYk3yC6YEeeCuJ2VO-neEQ"/>
+    <include xmi:id="_OYk3vi6YEeeCuJ2VO-neEQ" addition="_OYk3ry6YEeeCuJ2VO-neEQ"/>
+    <include xmi:id="_OYk3vy6YEeeCuJ2VO-neEQ" addition="_OYk3zi6YEeeCuJ2VO-neEQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_OYk3wC6YEeeCuJ2VO-neEQ" memberEnd="_OYk3wS6YEeeCuJ2VO-neEQ _OYk3xC6YEeeCuJ2VO-neEQ" navigableOwnedEnd="_OYk3wS6YEeeCuJ2VO-neEQ _OYk3xC6YEeeCuJ2VO-neEQ">
+    <ownedEnd xmi:id="_OYk3wS6YEeeCuJ2VO-neEQ" name="player 1" visibility="private" type="_OYk3jC6YEeeCuJ2VO-neEQ" association="_OYk3wC6YEeeCuJ2VO-neEQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OYk3wi6YEeeCuJ2VO-neEQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OYk3wy6YEeeCuJ2VO-neEQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_OYk3xC6YEeeCuJ2VO-neEQ" name="login" visibility="private" type="_OYk3jS6YEeeCuJ2VO-neEQ" association="_OYk3wC6YEeeCuJ2VO-neEQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OYk3xS6YEeeCuJ2VO-neEQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OYk3xi6YEeeCuJ2VO-neEQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_OYk3xy6YEeeCuJ2VO-neEQ" name="Build"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_OYk3yC6YEeeCuJ2VO-neEQ" name="Fight"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_OYk3yS6YEeeCuJ2VO-neEQ" supplier="_OYk3xy6YEeeCuJ2VO-neEQ" client="_OYk3uS6YEeeCuJ2VO-neEQ"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_OYk3yi6YEeeCuJ2VO-neEQ" supplier="_OYk3uS6YEeeCuJ2VO-neEQ" client="_OYk3jS6YEeeCuJ2VO-neEQ"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_OYk3yy6YEeeCuJ2VO-neEQ" name="ToolsManager" clientDependency="_OYk3zC6YEeeCuJ2VO-neEQ _OYk3zS6YEeeCuJ2VO-neEQ">
+    <packagedElement xmi:type="uml:Realization" xmi:id="_OYk3zC6YEeeCuJ2VO-neEQ" supplier="_OYk3yC6YEeeCuJ2VO-neEQ" client="_OYk3yy6YEeeCuJ2VO-neEQ"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_OYk3zS6YEeeCuJ2VO-neEQ" supplier="_OYk3xy6YEeeCuJ2VO-neEQ" client="_OYk3yy6YEeeCuJ2VO-neEQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_OYk3zi6YEeeCuJ2VO-neEQ" name="World Creation"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_OYk3zy6YEeeCuJ2VO-neEQ" name="WorldManager" clientDependency="_OYk30C6YEeeCuJ2VO-neEQ">
+    <packagedElement xmi:type="uml:Realization" xmi:id="_OYk30C6YEeeCuJ2VO-neEQ" supplier="_OYk3zi6YEeeCuJ2VO-neEQ" client="_OYk3zy6YEeeCuJ2VO-neEQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_OYk30S6YEeeCuJ2VO-neEQ" name="Game Server" clientDependency="_OYk31C6YEeeCuJ2VO-neEQ _OYk31S6YEeeCuJ2VO-neEQ _OYk31i6YEeeCuJ2VO-neEQ">
+    <elementImport xmi:id="_OYk30i6YEeeCuJ2VO-neEQ" importedElement="_OYk3zi6YEeeCuJ2VO-neEQ"/>
+    <elementImport xmi:id="_OYk30y6YEeeCuJ2VO-neEQ" importedElement="_OYk3zi6YEeeCuJ2VO-neEQ"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_OYk31C6YEeeCuJ2VO-neEQ" supplier="_OYk3zy6YEeeCuJ2VO-neEQ" client="_OYk30S6YEeeCuJ2VO-neEQ"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_OYk31S6YEeeCuJ2VO-neEQ" supplier="_OYk31y6YEeeCuJ2VO-neEQ" client="_OYk30S6YEeeCuJ2VO-neEQ"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_OYk31i6YEeeCuJ2VO-neEQ" supplier="_OYk3uS6YEeeCuJ2VO-neEQ" client="_OYk30S6YEeeCuJ2VO-neEQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_OYk31y6YEeeCuJ2VO-neEQ" name="Registration"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_OYk32C6YEeeCuJ2VO-neEQ" memberEnd="_OYk32S6YEeeCuJ2VO-neEQ _OYk33C6YEeeCuJ2VO-neEQ" navigableOwnedEnd="_OYk32S6YEeeCuJ2VO-neEQ _OYk33C6YEeeCuJ2VO-neEQ">
+    <ownedEnd xmi:id="_OYk32S6YEeeCuJ2VO-neEQ" name="registration" visibility="private" type="_OYk31y6YEeeCuJ2VO-neEQ" association="_OYk32C6YEeeCuJ2VO-neEQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OYk32i6YEeeCuJ2VO-neEQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OYk32y6YEeeCuJ2VO-neEQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_OYk33C6YEeeCuJ2VO-neEQ" name="player" visibility="private" type="_OYk3jC6YEeeCuJ2VO-neEQ" association="_OYk32C6YEeeCuJ2VO-neEQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OYk33S6YEeeCuJ2VO-neEQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OYk33i6YEeeCuJ2VO-neEQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <profileApplication xmi:id="_OYk33y6YEeeCuJ2VO-neEQ">
+    <eAnnotations xmi:id="_OYk34C6YEeeCuJ2VO-neEQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+  </profileApplication>
+</uml:Package>

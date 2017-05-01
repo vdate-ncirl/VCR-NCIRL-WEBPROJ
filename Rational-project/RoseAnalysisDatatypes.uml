@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Basic_0="http:///Basic_0.profile.uml2" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xsi:schemaLocation="http:///Basic_0.profile.uml2 pathmap://UML_PROFILES/Standard.profile.uml#__LeIQK86Edih9-GG5afQ0g">
+  <uml:Model xmi:id="_OYjo_C6YEeeCuJ2VO-neEQ" name="RoseAnalysisDatatypes">
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_OYjo_S6YEeeCuJ2VO-neEQ" name="Byte"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_OYjo_i6YEeeCuJ2VO-neEQ" name="Currency"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_OYjo_y6YEeeCuJ2VO-neEQ" name="Date"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_OYjpAC6YEeeCuJ2VO-neEQ" name="Double"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_OYjpAS6YEeeCuJ2VO-neEQ" name="Long"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_OYjpAi6YEeeCuJ2VO-neEQ" name="Single"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_OYjpAy6YEeeCuJ2VO-neEQ" name="Variant"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_OYjpBC6YEeeCuJ2VO-neEQ" name="Object"/>
+    <profileApplication xmi:id="_OYjpBS6YEeeCuJ2VO-neEQ">
+      <eAnnotations xmi:id="_OYjpBi6YEeeCuJ2VO-neEQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#__LeIQK86Edih9-GG5afQ0g"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Basic_0:Basic__ModelLibrary xmi:id="_OYjpBy6YEeeCuJ2VO-neEQ" base_Package="_OYjo_C6YEeeCuJ2VO-neEQ"/>
+</xmi:XMI>
